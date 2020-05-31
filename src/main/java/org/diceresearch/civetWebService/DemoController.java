@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
 @RestController
-public class Controller {
+public class DemoController {
 	
 	@PostMapping("/uploadFile")
     public int uploadFile(@RequestParam("file") MultipartFile file, @RequestParam String dataset) throws IOException {
