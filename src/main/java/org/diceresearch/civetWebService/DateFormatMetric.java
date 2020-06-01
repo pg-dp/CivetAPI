@@ -10,13 +10,6 @@ import org.apache.jena.vocabulary.DCAT;
 import org.apache.jena.vocabulary.DCTerms;
 import org.dice_research.opal.civet.Metric;
 import org.dice_research.opal.common.vocabulary.Opal;
-import java.io.ByteArrayInputStream;
-import java.nio.charset.StandardCharsets;
-import org.apache.jena.rdf.model.ModelFactory;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.multipart.MultipartFile;
 
 /**
  * For the Date Format metric, the following will be checked: Check, if the date
@@ -33,26 +26,13 @@ import org.springframework.web.multipart.MultipartFile;
  * Finally, an average of the following 4 cases has to be computed for the final
  * score: dataset: issued + modified, distributions: issued + modified
  * 
- * This also includes spring boot rest controller for reading RDF model and
- * datasetUri sent from postman and process them for metrics and return the
- * star.
- * 
  * @author Aamir Mohammed
  */
 
-@RestController
-public class DateFormatMetricController implements Metric {
+public class DateFormatMetric implements Metric {
 
 	private static final String DESCRIPTION = "If the date format is in the correct format then give 5 stars else 0 star"
 			+ "Finally, an average of the following 4 cases has to be computed for the finalscore: dataset: issued + modified, distributions: issued + modified";
-
-	@PostMapping("/uploadFile")
-	public int uploadFile(@RequestParam("file") MultipartFile file, @RequestParam String dataset) throws Exception {
-		Model model = ModelFactory.createDefaultModel();
-		model.read(new ByteArrayInputStream(file.getBytes()), null, "TTL");
-		String datasetUri = new String(dataset.getBytes(), StandardCharsets.UTF_8);
-		return compute(model, datasetUri);
-	}
 
 	public static int checkDateFormat(String issued) {
 		/*
