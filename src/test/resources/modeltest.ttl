@@ -1,0 +1,1015 @@
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix dcat:  <http://www.w3.org/ns/dcat#> .
+
+<http://projekt-opal.de/distribution/_mcloudde_jahresrasterderanzahlderheientagefrdeutschland_2>
+        a               dcat:Distribution ;
+        dct:license     <http://www.geodatenzentrum.de/docpdf/geonutzv.pdf> ;
+        dcat:accessURL  <https://mcloud.deftp://opendata.dwd.de/climate_environment/CDC/grids_germany/annual/hot_days/> .
+
+<http://projekt-opal.de/measurement3952>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/LinkedDataRepresentation> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement4856>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/LinkedDataRepresentation> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/distribution/_mcloudde_immissionsberechnungluftreinhalteplan_4>
+        a                 dcat:Distribution ;
+        dct:license       <https://www.govdata.de/dl-de/by-2-0> ;
+        dcat:downloadURL  <http://daten-hamburg.de/umwelt_klima/immissionsberechnung_luftreinhalteplan/2020_Entwurf_HabichtS-Drosselung.zip> .
+
+<http://projekt-opal.de/measurement3762>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/Categorization> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement6904>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/LinkedDataRepresentation> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/distribution/_mcloudde_mdmarbeitsstellenlngererdaueraufbabinmecklenburg-vorpommern_2>
+        a                 dcat:Distribution ;
+        dct:license       <http://www.geodatenzentrum.de/docpdf/geonutzv.pdf> ;
+        dcat:downloadURL  <http://www.mdm-portal.de/> .
+
+<http://projekt-opal.de/distribution/_mcloudde_rhrichtzunahmenund-verluste2000bis2002anderunterelbe_0>
+        a                 dcat:Distribution ;
+        dct:license       <http://www.geodatenzentrum.de/docpdf/geonutzv.pdf> ;
+        dcat:downloadURL  <https://www.portal-tideelbe.de/Allgemeine_Informationen/Archiv/GIS/RoehrichtZunahmen_Verluste2000_2002.zip> .
+
+<http://projekt-opal.de/measurement4666>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/KnownLicense> ;
+        <http://www.w3.org/ns/dqv#value>
+                "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/distribution/60b0a3bc-ec49-4ebf-aa4b-795dc249d4df_0>
+        a                 dcat:Distribution ;
+        dct:license       <http://creativecommons.org/licenses/by/4.0/> ;
+        dcat:downloadURL  <http://mdi-dienste.baw.de/geoserver/EasyGSH_Bathy_WCS/wcs?service=WCS&version=2.0.1&request=DescribeCoverage&coverageID=Bathymetrie_dgm1998_DB> .
+
+<http://projekt-opal.de/measurement5810>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/MultipleSerializations> ;
+        <http://www.w3.org/ns/dqv#value>
+                "1.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement3572>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/MultipleSerializations> ;
+        <http://www.w3.org/ns/dqv#value>
+                "1.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/distribution/_mcloudde_monatsmittelderstndlichenrasterderglobalstrahlungfrdeutschlandprojekttry-weiterentwicklung_0>
+        a                 dcat:Distribution ;
+        dct:license       <http://www.geodatenzentrum.de/docpdf/geonutzv.pdf> ;
+        dcat:downloadURL  <https://opendata.dwd.de/climate_environment/CDC/grids_germany/monthly/Project_TRY/radiation_global/> .
+
+<http://projekt-opal.de/measurement6714>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/KnownLicense> ;
+        <http://www.w3.org/ns/dqv#value>
+                "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement4476>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/ContactUrl> ;
+        <http://www.w3.org/ns/dqv#value>
+                "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement5620>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/Description> ;
+        <http://www.w3.org/ns/dqv#value>
+                "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement6524>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/Categorization> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement4286>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/Description> ;
+        <http://www.w3.org/ns/dqv#value>
+                "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/dataset/_mcloudde_berlinelektro-ladestationeninberlin>
+        a                  dcat:Dataset ;
+        dct:description    "Elektro-Ladestationen in Berlin inkl. deren Belegung. Die URL wird über den Abfrage-Parameter („?“) ergänzt, um die Ausgabe zu filtern, etwa um einen bestimmten Radius um einen Punkt herum. Die Rückgabe erfolgt in GeoJSON. Datenmodell: http://info.data-run.info/Schemata%20(XSD)%20und%20Dokumentation/H%20-%20Elektro-Ladestationen/. Die Daten sind im Rahmen einer Veranstaltung des Bundesministeriums für Verkehr und digitale Infrastruktur (BMVI), dem 3rd BMVI Data-Run, zugänglich gemacht worden. Bis mind. Februar 2020 sind sie über den angegebenen Link erreichbar." ;
+        dct:issued         "20.02.12" ;
+        dct:publisher      <http://projekt-opal.de/agent/_mcloudde_berlinelektro-ladestationeninberlin> ;
+        dct:title          "Berlin: Elektro-Ladestationen in Berlin" ;
+        dcat:distribution  <http://projekt-opal.de/distribution/_mcloudde_berlinelektro-ladestationeninberlin_0> , <http://projekt-opal.de/distribution/_mcloudde_berlinelektro-ladestationeninberlin_1> ;
+        dcat:landingPage   <https://mcloud.de/web/guest/suche/-/results/detail/_mcloudde_berlinelektro-ladestationeninberlin?_mcloudsearchportlet_backURL=https%3A%2F%2Fmcloud.de%2Fweb%2Fguest%2Fsuche%2F-%2Fresults%2FsearchAction%3F_mcloudsearchportlet_page%3D10%26_mcloudsearchportlet_sort%3Dlatest> , <https://mcloud.de/web/guest/suche/-/results/detail/_mcloudde_berlinelektro-ladestationeninberlin?_mcloudsearchportlet_backURL=https%3A%2F%2Fmcloud.de%2Fweb%2Fguest%2Fsuche%2F-%2Fresults%2FsearchAction%3F_mcloudsearchportlet_page%3D9%26_mcloudsearchportlet_sort%3Dlatest> ;
+        dcat:theme         <http://projeckt-opal.de/theme/mcloud/datarun> , <http://projeckt-opal.de/theme/mcloud/street> ;
+        <http://www.w3.org/ns/dqv#hasQualityMeasurement>
+                <http://projekt-opal.de/measurement6148> , <http://projekt-opal.de/measurement6149> , <http://projekt-opal.de/measurement6147> , <http://projekt-opal.de/measurement6153> , <http://projekt-opal.de/measurement6150> , <http://projekt-opal.de/measurement6151> , <http://projekt-opal.de/measurement6152> .
+
+<http://projekt-opal.de/measurement5430>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/MultipleSerializations> ;
+        <http://www.w3.org/ns/dqv#value>
+                "1.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/distribution/_mcloudde_bfo-o2013datenstze_2>
+        a               dcat:Distribution ;
+        dct:license     <http://www.geodatenzentrum.de/docpdf/geonutzv.pdf> ;
+        dcat:accessURL  <https://www.geoseaportal.de/wss/service/CONTIS_Spatial_Offshore_Grid_Plan/guest?request=GetCapabilities&service=WMS> .
+
+<http://projekt-opal.de/measurement6334>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/Description> ;
+        <http://www.w3.org/ns/dqv#value>
+                "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/distribution/_mcloudde_nrwstraendesberrtlichenverkehrsnachortslageundbaulast13-kreisfreiestdteundkreise-stichtag_10>
+        a                 dcat:Distribution ;
+        dct:license       <https://www.govdata.de/dl-de/by-2-0> ;
+        dcat:downloadURL  <https://www.landesdatenbank.nrw.de/link/tabelleDownload/46271-02iz.xml/-3> .
+
+<http://projekt-opal.de/measurement4096>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/Categorization> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement5240>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/ContactUrl> ;
+        <http://www.w3.org/ns/dqv#value>
+                "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement6144>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/MultipleSerializations> ;
+        <http://www.w3.org/ns/dqv#value>
+                "1.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement5050>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/LinkedDataRepresentation> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/distribution/_mcloudde_aisschiffsverkehrsdaten_3>
+        a                 dcat:Distribution ;
+        dct:license       <http://www.geodatenzentrum.de/docpdf/geonutzv.pdf> ;
+        dcat:downloadURL  <https://www.geoseaportal.de/wss/service/AIS_Vessel_Density_2013/guest> .
+
+<http://projekt-opal.de/measurement5982>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/Description> ;
+        <http://www.w3.org/ns/dqv#value>
+                "3.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement6886>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/Categorization> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement5792>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/Description> ;
+        <http://www.w3.org/ns/dqv#value>
+                "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement6696>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/KnownLicense> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+				
+<http://projekt-opal.de/dataset/_mcloudde_baysisstraennetz>
+        a                  dcat:Dataset ;
+        dct:description    "Der Web Feature Service liefert das klassifizierte Straßennetz nach ASB für die öffentlichen Straßen der Klassen Bundesautobahn, Bundesstraße, Staatsstraße und Kreisstraße mit Abschnitten und Stationen, die innerhalb des Bundeslandes Bayern liegen." ;
+        dct:issued         "2018-07-09 09:40:19.518623" ;
+        dct:publisher      <http://projekt-opal.de/agent/_mcloudde_baysisstraennetz> ;
+		dct:modified       "2019";
+        dct:title          "BAYSIS Straßennetz" ;    
+        dcat:landingPage   <https://mcloud.de/web/guest/suche/-/results/detail/_mcloudde_baysisstraennetz?_mcloudsearchportlet_backURL=https%3A%2F%2Fmcloud.de%2Fweb%2Fguest%2Fsuche%2F-%2Fresults%2FsearchAction%3F_mcloudsearchportlet_page%3D93%26_mcloudsearchportlet_sort%3Dlatest> ;
+        dcat:theme         <http://projeckt-opal.de/theme/mcloud/infrastructure> , <http://projeckt-opal.de/theme/mcloud/street> ;
+        <http://www.w3.org/ns/dqv#hasQualityMeasurement>
+                <http://projekt-opal.de/measurement5823> , <http://projekt-opal.de/measurement5822> , <http://projekt-opal.de/measurement5824> , <http://projekt-opal.de/measurement5819> , <http://projekt-opal.de/measurement5821> , <http://projekt-opal.de/measurement5818> , <http://projekt-opal.de/measurement5820> .
+
+<http://projekt-opal.de/dataset/82b3eec6-08eb-4eb7-acf9-ea9436d9fd9b>
+        a                  dcat:Dataset ;
+        dct:description    "Information on surveys (hydroacoustics, coring, cone penetration testing) in the North Sea and in the Baltic Sea. Data on the distribution of seabed sediments in the North Sea and the Baltic Sea of various scales and classifications. Data on tectonic events and paleogeographic structures in the North Sea and the Baltic Sea. Data on the composition of subsurface sediments in the North Sea and in the Baltic Sea." , "GeoSeaPortal (BSH)" ;
+        dct:issued         "03.02.2019" ;
+        dct:publisher      <http://projekt-opal.de/agent/82b3eec6-08eb-4eb7-acf9-ea9436d9fd9b> ;
+        dct:title          "Shelf Geo Explorer" ;
+        dcat:distribution  <http://projekt-opal.de/distribution/82b3eec6-08eb-4eb7-acf9-ea9436d9fd9b_0> , <http://projekt-opal.de/distribution/82b3eec6-08eb-4eb7-acf9-ea9436d9fd9b_1> ;
+        dcat:landingPage   <https://mcloud.de/web/guest/suche/-/results/detail/82b3eec6-08eb-4eb7-acf9-ea9436d9fd9b?_mcloudsearchportlet_backURL=https%3A%2F%2Fmcloud.de%2Fweb%2Fguest%2Fsuche%2F-%2Fresults%2FsearchAction%3F_mcloudsearchportlet_page%3D30%26_mcloudsearchportlet_sort%3Dlatest> ;
+        dcat:theme         <http://projeckt-opal.de/theme/mcloud/waterwaysAndWaters> ;
+        <http://www.w3.org/ns/dqv#hasQualityMeasurement>
+                <http://projekt-opal.de/measurement5699> , <http://projekt-opal.de/measurement5700> , <http://projekt-opal.de/measurement5701> , <http://projekt-opal.de/measurement5705> , <http://projekt-opal.de/measurement5702> , <http://projekt-opal.de/measurement5703> , <http://projekt-opal.de/measurement5704> .
+
+<http://projekt-opal.de/distribution/45671cad-7101-4633-88e1-dfce12d03e4b_1>
+        a                 dcat:Distribution ;
+        dct:license       <http://www.opendefinition.org/licenses/cc-by> ;
+        dcat:downloadURL  <https://mcloud.de/export/datasets/45671cad-7101-4633-88e1-dfce12d03e4b> .
+
+<http://projekt-opal.de/measurement3915>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/ContactUrl> ;
+        <http://www.w3.org/ns/dqv#value>
+                "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/distribution/_mcloudde_nrwbestandankraftfahrzeugennachkraftfahrzeugarten-kreisfreiestdteundkreise-stichtag_7>
+        a                 dcat:Distribution ;
+        dct:license       <https://www.govdata.de/dl-de/by-2-0> ;
+        dcat:downloadURL  <https://www.landesdatenbank.nrw.de/link/tabelleDownload/46251-02iz.xml> .
+
+<http://projekt-opal.de/measurement4819>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/KnownLicense> ;
+        <http://www.w3.org/ns/dqv#value>
+                "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement3725>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/KnownLicense> ;
+        <http://www.w3.org/ns/dqv#value>
+                "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement4629>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/ContactUrl> ;
+        <http://www.w3.org/ns/dqv#value>
+                "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement3535>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/LinkedDataRepresentation> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement4439>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/MultipleSerializations> ;
+        <http://www.w3.org/ns/dqv#value>
+                "1.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/agent/9f8a5c54-1f86-41e5-ba2b-28ae4b4ea91c>
+        a       <http://xmlns.com/foaf/0.1/Agent> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "Bundesanstalt für Gewässerkunde" .
+
+<http://projekt-opal.de/measurement4249>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/MultipleSerializations> ;
+        <http://www.w3.org/ns/dqv#value>
+                "1.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/distribution/80074b40-9ce4-4741-ad39-09d3879740cc_1>
+        a               dcat:Distribution ;
+        dcat:accessURL  <http://mdi-dienste.baw.de/geoserver/EasyGSH_Tide/wfs?request=getcapabilities> .
+
+<http://projekt-opal.de/measurement4059>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/ContactUrl> ;
+        <http://www.w3.org/ns/dqv#value>
+                "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement5203>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/Timeliness> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement6107>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/KnownLicense> ;
+        <http://www.w3.org/ns/dqv#value>
+                "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement5013>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/Timeliness> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/agent/_mcloudde_nrwstraenverkehrsunfllemitpersonenschadennachstraenklassen-gemeinden-jahr>
+        a       <http://xmlns.com/foaf/0.1/Agent> ;
+        <http://xmlns.com/foaf/0.1/homepage>
+                <https://www.it.nrw.de/> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "Information und Technik Nordrhein-Westfalen (IT.NRW)" .
+
+<http://projekt-opal.de/distribution/_mcloudde_nrwverkehrsunfllemitpersonenschadennachunfalltypenundstraenklassen-land-monat_7>
+        a                 dcat:Distribution ;
+        dct:license       <https://www.govdata.de/dl-de/by-2-0> ;
+        dcat:downloadURL  <https://www.landesdatenbank.nrw.de/link/tabelleDownload/46241-10iz.xml> .
+
+<http://projekt-opal.de/distribution/_mcloudde_nrwstraendesberrtlichenverkehrsinsgesamtnachstraenklassen4-kreisfreiestdteundkreise-stichtag_5>
+        a                 dcat:Distribution ;
+        dct:license       <https://www.govdata.de/dl-de/by-2-0> ;
+        dcat:downloadURL  <https://www.landesdatenbank.nrw.de/link/tabelleDownload/46271-01iz.csv/-4> .
+
+<http://projekt-opal.de/measurement3897>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/KnownLicense> ;
+        <http://www.w3.org/ns/dqv#value>
+                "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement5945>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/ContactUrl> ;
+        <http://www.w3.org/ns/dqv#value>
+                "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement6849>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/KnownLicense> ;
+        <http://www.w3.org/ns/dqv#value>
+                "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/dataset/_mcloudde_berlinradverkehrsanlagen2>
+        a                  dcat:Dataset ;
+        dct:description    "In der Karte werden die Radverkehrsanlagen bestehend aus Radwegen, Radfahrstreifen, Schutzstreifen und Bussonderfahrstreifen, mit und ohne Mitbenutzung durch den Radverkehr, dargestellt." ;
+        dct:issued         "01.01.1949 - 31.12.2017" ;
+        dct:publisher      <http://projekt-opal.de/agent/_mcloudde_berlinradverkehrsanlagen2> ;
+        dct:title          "Berlin: Radverkehrsanlagen" ;
+        dcat:distribution  <http://projekt-opal.de/distribution/_mcloudde_berlinradverkehrsanlagen2_0> , <http://projekt-opal.de/distribution/_mcloudde_berlinradverkehrsanlagen2_3> , <http://projekt-opal.de/distribution/_mcloudde_berlinradverkehrsanlagen2_1> , <http://projekt-opal.de/distribution/_mcloudde_berlinradverkehrsanlagen2_4> , <http://projekt-opal.de/distribution/_mcloudde_berlinradverkehrsanlagen2_5> , <http://projekt-opal.de/distribution/_mcloudde_berlinradverkehrsanlagen2_2> ;
+        dcat:landingPage   <https://mcloud.de/web/guest/suche/-/results/detail/_mcloudde_berlinradverkehrsanlagen2?_mcloudsearchportlet_backURL=https%3A%2F%2Fmcloud.de%2Fweb%2Fguest%2Fsuche%2F-%2Fresults%2FsearchAction%3F_mcloudsearchportlet_page%3D2%26_mcloudsearchportlet_sort%3Dlatest> ;
+        dcat:theme         <http://projeckt-opal.de/theme/mcloud/street> , <http://projeckt-opal.de/theme/mcloud/datarun> ;
+        <http://www.w3.org/ns/dqv#hasQualityMeasurement>
+                <http://projekt-opal.de/measurement6466> , <http://projekt-opal.de/measurement6464> , <http://projekt-opal.de/measurement6465> , <http://projekt-opal.de/measurement6463> , <http://projekt-opal.de/measurement6462> , <http://projekt-opal.de/measurement6467> , <http://projekt-opal.de/measurement6468> .
+
+<http://projekt-opal.de/measurement4851>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/ContactUrl> ;
+        <http://www.w3.org/ns/dqv#value>
+                "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/distribution/_mcloudde_achslasterfassung_6>
+        a                 dcat:Distribution ;
+        dcat:downloadURL  <https://www.bast.de/BASt_2017/DE/Statistik/Achslast/2017/Daten-2017.csv?__blob=publicationFile&v=2> .
+
+<http://projekt-opal.de/distribution/_mcloudde_regnie-rasterdertglichenniederschlagshhefrdeutschland_0>
+        a                 dcat:Distribution ;
+        dct:license       <http://www.geodatenzentrum.de/docpdf/geonutzv.pdf> ;
+        dcat:downloadURL  <https://opendata.dwd.de/climate_environment/CDC/grids_germany/daily/regnie/> .
+
+<http://projekt-opal.de/measurement5755>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/MultipleSerializations> ;
+        <http://www.w3.org/ns/dqv#value>
+                "1.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/distribution/_mcloudde_berlinverkehrsbedingteluftbelastung2009umweltatlas-wms_1>
+        a               dcat:Distribution ;
+        dct:license     <http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf> ;
+        dcat:accessURL  <https://mcloud.de/export/datasets/_mcloudde_berlinverkehrsbedingteluftbelastung2009umweltatlas-wms> .
+
+<http://projekt-opal.de/measurement6659>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/Timeliness> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement4661>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/KnownLicense> ;
+        <http://www.w3.org/ns/dqv#value>
+                "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement5565>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/KnownLicense> ;
+        <http://www.w3.org/ns/dqv#value>
+                "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement6469>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/Timeliness> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement4471>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/KnownLicense> ;
+        <http://www.w3.org/ns/dqv#value>
+                "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement5375>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/Categorization> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement6279>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/KnownLicense> ;
+        <http://www.w3.org/ns/dqv#value>
+                "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement4281>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/ContactUrl> ;
+        <http://www.w3.org/ns/dqv#value>
+                "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement5185>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/Description> ;
+        <http://www.w3.org/ns/dqv#value>
+                "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement6089>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/Categorization> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement4091>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/KnownLicense> ;
+        <http://www.w3.org/ns/dqv#value>
+                "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/dataset/9544df80-c28c-42f6-8ede-cc4b63d8276b>
+        a                  dcat:Dataset ;
+        dct:description    "Die Bathymetrie berechnet für das Jahr 2009, im Rahmen des mfund Projektes EasyGSH-DB (Erstellung anwendungsorientierter, synoptischer Referenzdaten zur Geomorphologie, Sedimentologie und Hydrodynamik in der Deutschen Bucht). mFUND-Projekt: easygsh-db, FKZ: 19f2004c" , "MDI-DE" ;
+        dct:issued         "01.01.1949  31.12.2017" ;
+        dct:publisher      <http://projekt-opal.de/agent/9544df80-c28c-42f6-8ede-cc4b63d8276b> ;
+        dct:title          "Bathymetrie des Jahres 2009 der Deutschen Bucht von EasyGSH-DB" ;
+        dcat:distribution  <http://projekt-opal.de/distribution/9544df80-c28c-42f6-8ede-cc4b63d8276b_2> , <http://projekt-opal.de/distribution/9544df80-c28c-42f6-8ede-cc4b63d8276b_1> , <http://projekt-opal.de/distribution/9544df80-c28c-42f6-8ede-cc4b63d8276b_0> ;
+        dcat:landingPage   <https://mcloud.de/web/guest/suche/-/results/detail/9544df80-c28c-42f6-8ede-cc4b63d8276b?_mcloudsearchportlet_backURL=https%3A%2F%2Fmcloud.de%2Fweb%2Fguest%2Fsuche%2F-%2Fresults%2FsearchAction%3F_mcloudsearchportlet_page%3D1%26_mcloudsearchportlet_sort%3Dlatest> ;
+        dcat:theme         <http://projeckt-opal.de/theme/mcloud/waterwaysAndWaters> ;
+        <http://www.w3.org/ns/dqv#hasQualityMeasurement>
+                <http://projekt-opal.de/measurement5973> , <http://projekt-opal.de/measurement5974> , <http://projekt-opal.de/measurement5977> , <http://projekt-opal.de/measurement5972> , <http://projekt-opal.de/measurement5978> , <http://projekt-opal.de/measurement5976> , <http://projekt-opal.de/measurement5975> .
+
+<http://projekt-opal.de/dataset/_mcloudde_aktuellste10-mintigestationsmessungendermaxmin-mittelundwindspitzenindeutschland>
+        a                  dcat:Dataset ;
+        dct:description    "Diese nah an der Echtzeit liegenden, zeitlich hochaufgelösten Daten stammen von Stationen des DWD und rechtlich und qualitativ gleichgestellten Partnernetzstationen. Die Daten unter \"now\" sind hochaktuelle Daten, welche die Qualitätskontrolle noch nicht vollständig durchlaufen haben. Weitere Informationen: https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/10_minutes/extreme_wind/now/BESCHREIBUNG_obsgermany_climate_10min_fx_now_de.pdf" ;
+        dct:issued         "gestern - heute" ;
+        dct:publisher      <http://projekt-opal.de/agent/_mcloudde_aktuellste10-mintigestationsmessungendermaxmin-mittelundwindspitzenindeutschland> ;
+        dct:title          "Aktuellste 10-minütige Stationsmessungen der Max/Min -Mittel und Windspitzen in Deutschland" ;
+        dcat:distribution  <http://projekt-opal.de/distribution/_mcloudde_aktuellste10-mintigestationsmessungendermaxmin-mittelundwindspitzenindeutschland_2> , <http://projekt-opal.de/distribution/_mcloudde_aktuellste10-mintigestationsmessungendermaxmin-mittelundwindspitzenindeutschland_0> , <http://projekt-opal.de/distribution/_mcloudde_aktuellste10-mintigestationsmessungendermaxmin-mittelundwindspitzenindeutschland_1> ;
+        dcat:landingPage   <https://mcloud.de/web/guest/suche/-/results/detail/_mcloudde_aktuellste10-mintigestationsmessungendermaxmin-mittelundwindspitzenindeutschland?_mcloudsearchportlet_backURL=https%3A%2F%2Fmcloud.de%2Fweb%2Fguest%2Fsuche%2F-%2Fresults%2FsearchAction%3F_mcloudsearchportlet_page%3D15%26_mcloudsearchportlet_sort%3Dlatest> ;
+        dcat:theme         <http://projeckt-opal.de/theme/mcloud/climateAndWeather> ;
+        <http://www.w3.org/ns/dqv#hasQualityMeasurement>
+                <http://projekt-opal.de/measurement5197> , <http://projekt-opal.de/measurement5196> , <http://projekt-opal.de/measurement5199> , <http://projekt-opal.de/measurement5198> , <http://projekt-opal.de/measurement5195> , <http://projekt-opal.de/measurement5201> , <http://projekt-opal.de/measurement5200> .
+
+<http://projekt-opal.de/distribution/_mcloudde_mittelwertderlufttemperaturnord-undostsee_1>
+        a                 dcat:Distribution ;
+        dcat:downloadURL  <http://icdc.cen.uni-hamburg.de/las-knsc/getUI.do> .
+
+<http://projekt-opal.de/distribution/_mcloudde_nrwkartenlayerflugverkehr24h-pegellden_0>
+        a                 dcat:Distribution ;
+        dct:license       <https://www.govdata.de/dl-de/by-2-0> ;
+        dcat:downloadURL  <http://www.gis-rest.nrw.de/atomFeed/rest/atom/5d4f52c0-58be-4a41-a17d-0547ed06dd5e> .
+
+<http://projekt-opal.de/agent/_mcloudde_pollenflug-gefahrenindexesche>
+        a       <http://xmlns.com/foaf/0.1/Agent> ;
+        <http://xmlns.com/foaf/0.1/homepage>
+                <http://www.dwd.de> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "Deutscher Wetterdienst (DWD)" .
+
+<http://projekt-opal.de/agent/_mcloudde_mauttabelle>
+        a       <http://xmlns.com/foaf/0.1/Agent> ;
+        <http://xmlns.com/foaf/0.1/homepage>
+                <http://www.bast.de/> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "Bundesanstalt für Straßenwesen (BASt)" .
+
+<http://projekt-opal.de/dataset/_mcloudde_mittelwertderjhrlichenbodennahenlufttemperatur>
+        a                  dcat:Dataset ;
+        dct:description    "Mittelwert der jährlichen bodennahen Lufttemperatur. Zeitreihen für Gebietsmittel fuer Bundesländer und Kombinationen von Bundesländer" ;
+        dct:issued         "1881 bis letztes Jahr" ;
+        dct:publisher      <http://projekt-opal.de/agent/_mcloudde_mittelwertderjhrlichenbodennahenlufttemperatur> ;
+        dct:title          "Mittelwert der jährlichen bodennahen Lufttemperatur" ;
+        dcat:distribution  <http://projekt-opal.de/distribution/_mcloudde_mittelwertderjhrlichenbodennahenlufttemperatur_0> , <http://projekt-opal.de/distribution/_mcloudde_mittelwertderjhrlichenbodennahenlufttemperatur_1> ;
+        dcat:landingPage   <https://mcloud.de/web/guest/suche/-/results/detail/_mcloudde_mittelwertderjhrlichenbodennahenlufttemperatur?_mcloudsearchportlet_backURL=https%3A%2F%2Fmcloud.de%2Fweb%2Fguest%2Fsuche%2F-%2Fresults%2FsearchAction%3F_mcloudsearchportlet_page%3D84%26_mcloudsearchportlet_sort%3Dlatest> ;
+        dcat:theme         <http://projeckt-opal.de/theme/mcloud/climateAndWeather> ;
+        <http://www.w3.org/ns/dqv#hasQualityMeasurement>
+                <http://projekt-opal.de/measurement4044> , <http://projekt-opal.de/measurement4043> , <http://projekt-opal.de/measurement4046> , <http://projekt-opal.de/measurement4041> , <http://projekt-opal.de/measurement4042> , <http://projekt-opal.de/measurement4045> , <http://projekt-opal.de/measurement4040> .
+
+<http://projekt-opal.de/distribution/6b6b08f3-7377-48e2-a8d6-849873648f68_2>
+        a               dcat:Distribution ;
+        dcat:accessURL  <http://mdi-dienste.baw.de/geoserver/EasyGSH_Tide/wms?request=getcapabilities> .
+
+<http://projekt-opal.de/measurement6881>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/Description> ;
+        <http://www.w3.org/ns/dqv#value>
+                "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/distribution/_mcloudde_parkhuserhamburg_2>
+        a                 dcat:Distribution ;
+        dct:license       <https://www.govdata.de/dl-de/by-2-0> ;
+        dcat:downloadURL  <http://www.hamburg.de/parken/> .
+
+<http://projekt-opal.de/measurement6691>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/MultipleSerializations> ;
+        <http://www.w3.org/ns/dqv#value>
+                "1.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement5908>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/LinkedDataRepresentation> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement3910>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/LinkedDataRepresentation> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/distribution/_mcloudde_nrwbestandankraftfahrzeugennachkraftfahrzeugarten-kreisfreiestdteundkreise-stichtag_2>
+        a                 dcat:Distribution ;
+        dct:license       <https://www.govdata.de/dl-de/by-2-0> ;
+        dcat:downloadURL  <https://www.landesdatenbank.nrw.de/link/tabelleDownload/46251-02iz.csv/-1> .
+
+<http://projekt-opal.de/measurement4814>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/Timeliness> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement5718>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/ContactUrl> ;
+        <http://www.w3.org/ns/dqv#value>
+                "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement3720>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/Categorization> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/distribution/_mcloudde_mittelwertderwassertemperaturunddessalzgehaltesauf105tiefenstufennord-undostsee_4>
+        a                 dcat:Distribution ;
+        dcat:downloadURL  <https://mcloud.de/export/datasets/_mcloudde_mittelwertderwassertemperaturunddessalzgehaltesauf105tiefenstufennord-undostsee> .
+
+<http://projekt-opal.de/measurement4624>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/ContactUrl> ;
+        <http://www.w3.org/ns/dqv#value>
+                "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement3530>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/MultipleSerializations> ;
+        <http://www.w3.org/ns/dqv#value>
+                "1.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement5528>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/Categorization> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement4434>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/Categorization> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement5338>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/ContactUrl> ;
+        <http://www.w3.org/ns/dqv#value>
+                "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/distribution/_mcloudde_nrwverkehrsunfllemitpersonenschadennachunfallartenundstraenklassen-land-monat_8>
+        a                 dcat:Distribution ;
+        dct:license       <https://www.govdata.de/dl-de/by-2-0> ;
+        dcat:downloadURL  <https://www.landesdatenbank.nrw.de/link/tabelleDownload/46241-11iz.xml/-1> .
+
+<http://projekt-opal.de/agent/994b2117-cf62-438c-80e1-08cb9d510376>
+        a       <http://xmlns.com/foaf/0.1/Agent> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "Bundesanstalt für Gewässerkunde" .
+
+<http://projekt-opal.de/measurement4244>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/Categorization> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/distribution/_mcloudde_mdmarbeitsstellenlngererdaueraufbabinbrandenburg_0>
+        a                 dcat:Distribution ;
+        dct:license       <http://www.geodatenzentrum.de/docpdf/geonutzv.pdf> ;
+        dcat:downloadURL  <http://data-run.info/BASt-MDM-Interface/srv/2873004/clientPullService?subscriptionID=2873004> .
+
+<http://projekt-opal.de/measurement5148>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/MultipleSerializations> ;
+        <http://www.w3.org/ns/dqv#value>
+                "1.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement4054>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/Categorization> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement6102>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/KnownLicense> ;
+        <http://www.w3.org/ns/dqv#value>
+                "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement7006>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/KnownLicense> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/dataset/7fcd1bed-8429-4bf6-9c07-a27362f8445b>
+        a                  dcat:Dataset ;
+        dct:description    "Tidekennwerte der mittleren Ebbestromgeschwindigkeit: Mittelwert der Fließgeschwindigkeit innerhalb der Ebbestromdauer. 12 Rechenläufe: 11 Läufe bei mittlerer Tide, acht davon für die Windrichtungen Nord, Nordwest, West, Südwest, Süd, Südost, Ost, Nordost mit einer Windgeschwindigkeit von 12,5m/s. Drei Datensätze mit Windgeschwindigkeit 0, 6 und 25m/s bei Wind aus West. Ein Datensatz ohne Wind läuft über ein ganzes Jahr (Spring-Nipp-Zyklus)." , "MDI-DE" ;
+        dct:issued         "Sat Dec 31 23:00:00 GMT 2005 — Sun Dec 31 22:59:59 GMT 2006" ;
+        dct:publisher      <http://projekt-opal.de/agent/7fcd1bed-8429-4bf6-9c07-a27362f8445b> ;
+        dct:title          "mit. Ebbestromgeschwindigkeit (vem) im AufMod-Tidekennwert-Atlas. Kennwerte berechnet mit UnTrim 2007, Hindcastsimulation des Jahres 2006." ;
+        dcat:distribution  <http://projekt-opal.de/distribution/7fcd1bed-8429-4bf6-9c07-a27362f8445b_1> , <http://projekt-opal.de/distribution/7fcd1bed-8429-4bf6-9c07-a27362f8445b_0> , <http://projekt-opal.de/distribution/7fcd1bed-8429-4bf6-9c07-a27362f8445b_3> , <http://projekt-opal.de/distribution/7fcd1bed-8429-4bf6-9c07-a27362f8445b_2> , <http://projekt-opal.de/distribution/7fcd1bed-8429-4bf6-9c07-a27362f8445b_4> ;
+        dcat:landingPage   <https://mcloud.de/web/guest/suche/-/results/detail/7fcd1bed-8429-4bf6-9c07-a27362f8445b?_mcloudsearchportlet_backURL=https%3A%2F%2Fmcloud.de%2Fweb%2Fguest%2Fsuche%2F-%2Fresults%2FsearchAction%3F_mcloudsearchportlet_page%3D65%26_mcloudsearchportlet_sort%3Dlatest> ;
+        dcat:theme         <http://projeckt-opal.de/theme/mcloud/waterwaysAndWaters> ;
+        <http://www.w3.org/ns/dqv#hasQualityMeasurement>
+                <http://projekt-opal.de/measurement5640> , <http://projekt-opal.de/measurement5639> , <http://projekt-opal.de/measurement5641> , <http://projekt-opal.de/measurement5642> , <http://projekt-opal.de/measurement5636> , <http://projekt-opal.de/measurement5637> , <http://projekt-opal.de/measurement5638> .
+
+<http://projekt-opal.de/distribution/_mcloudde_berlinverkehrsbedingteluftbelastungimstraenraum2015und2020umweltatlas_1>
+        a                 dcat:Distribution ;
+        dct:license       <http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf> ;
+        dcat:downloadURL  <https://mcloud.de/export/datasets/_mcloudde_berlinverkehrsbedingteluftbelastungimstraenraum2015und2020umweltatlas> .
+
+<http://projekt-opal.de/distribution/_mcloudde_nrwverkehrsunfllemitpersonenschadennachunfalltypenundstraenklassen-land-monat_2>
+        a                 dcat:Distribution ;
+        dct:license       <https://www.govdata.de/dl-de/by-2-0> ;
+        dcat:downloadURL  <https://www.landesdatenbank.nrw.de/link/tabelleDownload/46241-10iz.csv/-1> .
+
+<http://projekt-opal.de/distribution/_mcloudde_nrwstraendesberrtlichenverkehrsinsgesamtnachstraenklassen4-kreisfreiestdteundkreise-stichtag_0>
+        a                 dcat:Distribution ;
+        dct:license       <https://www.govdata.de/dl-de/by-2-0> ;
+        dcat:downloadURL  <https://www.landesdatenbank.nrw.de/link/tabelleAufbau/46271-01iz> .
+
+<http://projekt-opal.de/measurement4986>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/KnownLicense> ;
+        <http://www.w3.org/ns/dqv#value>
+                "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/distribution/_mcloudde_monatlichemittlerewolkenbedeckungprojektcmsafbasierendaufclaasedition1near-realtimemonatlichergnzt_1>
+        a               dcat:Distribution ;
+        dct:license     <http://www.geodatenzentrum.de/docpdf/geonutzv.pdf> ;
+        dcat:accessURL  <https://mcloud.deftp://ftp-cdc.dwd.de/pub/CDC/grids_europe/monthly/cloud_cover/SEVIRI/> .
+
+<http://projekt-opal.de/agent/7c769417-3210-465c-b8ca-9c0f2922a6aa>
+        a       <http://xmlns.com/foaf/0.1/Agent> ;
+        <http://xmlns.com/foaf/0.1/homepage>
+                <http://www.itzbund.de> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "Informationstechnikzentrum Bund (ITZBund)" .
+
+<http://projekt-opal.de/measurement3892>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/MultipleSerializations> ;
+        <http://www.w3.org/ns/dqv#value>
+                "1.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement4796>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/ContactUrl> ;
+        <http://www.w3.org/ns/dqv#value>
+                "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/distribution/_mcloudde_nrwstraennetzlandesbetriebstraenbaunrw_1>
+        a                 dcat:Distribution ;
+        dct:license       <https://www.govdata.de/dl-de/by-2-0> ;
+        dcat:downloadURL  <https://mcloud.de/export/datasets/_mcloudde_nrwstraennetzlandesbetriebstraenbaunrw> .
+
+<http://projekt-opal.de/measurement5940>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/LinkedDataRepresentation> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/distribution/_mcloudde_pollenflug-gefahrenindexhasel_2>
+        a               dcat:Distribution ;
+        dct:license     <http://www.geodatenzentrum.de/docpdf/geonutzv.pdf> ;
+        dcat:accessURL  <https://maps.dwd.de/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities> .
+
+<http://projekt-opal.de/measurement6844>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/Description> ;
+        <http://www.w3.org/ns/dqv#value>
+                "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/distribution/_mcloudde_achslasterfassung_1>
+        a                 dcat:Distribution ;
+        dcat:downloadURL  <https://www.bast.de/BASt_2017/DE/Statistik/Achslast/2012/Daten-2012.csv?__blob=publicationFile&v=4> .
+
+<http://projekt-opal.de/measurement5750>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/ContactUrl> ;
+        <http://www.w3.org/ns/dqv#value>
+                "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement6654>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/Description> ;
+        <http://www.w3.org/ns/dqv#value>
+                "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement5560>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/Timeliness> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/dataset/5941522b-23af-45fa-8746-3e9e7da545a6>
+        a                  dcat:Dataset ;
+        dct:description    "GeoSeaPortal (BSH)" , "Das fachlich und technisch modular aufgebaute Fachinformationssystem CONTIS (Continental Shelf Information Systems) beinhaltet Geofachdaten der Meeresumwelt aus den Bereichen maritime Raumplanung (z.B. Raumordnungspläne der deutschen ausschließlichen Wirtschaftszone AWZ und Bundesfachplan Offshore BFO) und maritimes Kataster (aktuelle und zukünftige Nutzungen)." ;
+        dct:issued         "Sun Feb 03 00:00:00 GMT 2019" ;
+        dct:publisher      <http://projekt-opal.de/agent/5941522b-23af-45fa-8746-3e9e7da545a6> ;
+        dct:title          "Continental Shelf Information System (CONTIS)" ;
+        dcat:distribution  <http://projekt-opal.de/distribution/5941522b-23af-45fa-8746-3e9e7da545a6_1> , <http://projekt-opal.de/distribution/5941522b-23af-45fa-8746-3e9e7da545a6_0> ;
+        dcat:landingPage   <https://mcloud.de/web/guest/suche/-/results/detail/5941522b-23af-45fa-8746-3e9e7da545a6?_mcloudsearchportlet_backURL=https%3A%2F%2Fmcloud.de%2Fweb%2Fguest%2Fsuche%2F-%2Fresults%2FsearchAction%3F_mcloudsearchportlet_page%3D30%26_mcloudsearchportlet_sort%3Dlatest> ;
+        dcat:theme         <http://projeckt-opal.de/theme/mcloud/waterwaysAndWaters> ;
+        <http://www.w3.org/ns/dqv#hasQualityMeasurement>
+                <http://projekt-opal.de/measurement4972> , <http://projekt-opal.de/measurement4977> , <http://projekt-opal.de/measurement4975> , <http://projekt-opal.de/measurement4973> , <http://projekt-opal.de/measurement4971> , <http://projekt-opal.de/measurement4976> , <http://projekt-opal.de/measurement4974> .
+
+<http://projekt-opal.de/measurement6464>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/Timeliness> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/distribution/_mcloudde_aktuellste10-mintigestationsmessungenderniederschlagshheindeutschland_1>
+        a                 dcat:Distribution ;
+        dct:license       <http://www.geodatenzentrum.de/docpdf/geonutzv.pdf> ;
+        dcat:downloadURL  <https://mcloud.de/export/datasets/_mcloudde_aktuellste10-mintigestationsmessungenderniederschlagshheindeutschland> .
+
+<http://projekt-opal.de/distribution/_mcloudde_nrwkartenlayerstraenachtpegellnight_2>
+        a               dcat:Distribution ;
+        dct:license     <https://www.govdata.de/dl-de/by-2-0> ;
+        dcat:accessURL  <http://www.wms.nrw.de/umwelt/laerm?SERVICE=WMS&REQUEST=GetCapabilities> .
+
+<http://projekt-opal.de/distribution/55134453-193d-47ea-9b20-0f7016702c91_0>
+        a                 dcat:Distribution ;
+        dcat:downloadURL  <http://atlas.dlz-it.de/dbnetzag/atom/dbnetzag.xml> .
+
+<http://projekt-opal.de/measurement5370>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/LinkedDataRepresentation> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement6274>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/ContactUrl> ;
+        <http://www.w3.org/ns/dqv#value>
+                "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/distribution/031d2188-dd95-41b3-9517-03e2ee0268ae_1>
+        a               dcat:Distribution ;
+        dcat:accessURL  <http://atlas.dlz-it.de/dbnetzag/tn-ra/wms?> .
+
+<http://projekt-opal.de/measurement5180>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/Description> ;
+        <http://www.w3.org/ns/dqv#value>
+                "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement6084>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/Timeliness> ;
+        <http://www.w3.org/ns/dqv#value>
+                "1.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/distribution/_mcloudde_berlinstratlrmkartel_nnacht-indexstraenverkehr2012ua_2>
+        a               dcat:Distribution ;
+        dct:license     <http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf> ;
+        dcat:accessURL  <http://fbinter.stadt-berlin.de/fb?loginkey=showMap&mapId=wmsk_07_05_02str_vbusN2012@senstadt> .
+
+<http://projekt-opal.de/measurement4207>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/Description> ;
+        <http://www.w3.org/ns/dqv#value>
+                "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/distribution/_mcloudde_berlindetailnetzberlin_5>
+        a               dcat:Distribution ;
+        dct:license     <http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf> ;
+        dcat:accessURL  <https://fbinter.stadt-berlin.de/fb/wms/senstadt/k_vms_detailnetz_wms_spatial/?REQUEST=GetCapabilities&SERVICE=WMS> .
+
+<http://projekt-opal.de/measurement4017>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/LinkedDataRepresentation> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/dataset/_mcloudde_berlinverkehrsbedingteluftbelastungimstraenraum2015und2020umweltatlas2>
+        a                  dcat:Dataset ;
+        dct:description    "Verkehrsbedingte Luftbelastung im übergeordneten Straßennetz 2009 und Trendberechnungen 2015 und 2020" ;
+        dct:issued         "01.01.1970" ;
+        dct:publisher      <http://projekt-opal.de/agent/_mcloudde_berlinverkehrsbedingteluftbelastungimstraenraum2015und2020umweltatlas2> ;
+        dct:title          "Berlin: Verkehrsbedingte Luftbelastung im Straßenraum 2015 und 2020 (Umweltatlas)" ;
+        dcat:distribution  <http://projekt-opal.de/distribution/_mcloudde_berlinverkehrsbedingteluftbelastungimstraenraum2015und2020umweltatlas2_2> , <http://projekt-opal.de/distribution/_mcloudde_berlinverkehrsbedingteluftbelastungimstraenraum2015und2020umweltatlas2_0> , <http://projekt-opal.de/distribution/_mcloudde_berlinverkehrsbedingteluftbelastungimstraenraum2015und2020umweltatlas2_1> ;
+        dcat:landingPage   <https://mcloud.de/web/guest/suche/-/results/detail/_mcloudde_berlinverkehrsbedingteluftbelastungimstraenraum2015und2020umweltatlas2?_mcloudsearchportlet_backURL=https%3A%2F%2Fmcloud.de%2Fweb%2Fguest%2Fsuche%2F-%2Fresults%2FsearchAction%3F_mcloudsearchportlet_page%3D72%26_mcloudsearchportlet_sort%3Dlatest> ;
+        dcat:theme         <http://projeckt-opal.de/theme/mcloud/street> ;
+        <http://www.w3.org/ns/dqv#hasQualityMeasurement>
+                <http://projekt-opal.de/measurement6771> , <http://projekt-opal.de/measurement6776> , <http://projekt-opal.de/measurement6775> , <http://projekt-opal.de/measurement6770> , <http://projekt-opal.de/measurement6774> , <http://projekt-opal.de/measurement6773> , <http://projekt-opal.de/measurement6772> .
+
+<http://projekt-opal.de/dataset/_mcloudde_parkhuserhamburg>
+        a                  dcat:Dataset ;
+        dct:description    "Der Datensatz enthält die Standorte der Parkhäuser im Hamburger Stadtgebiet mit Informationen über Öffnungszeiten, Preise, Anzahl der Stellplätze, Einfahrtshöhen sowie teilweise Belegungsdaten (freie Stellplätze) und Anzahl der Frauen- und Behindertenstellplätze. Zum Teil werden in 10minütigen Abständen Parkplatzbelegungsdaten übermittelt." ;
+        dct:issued         "Echtzeit" ;
+        dct:publisher      <http://projekt-opal.de/agent/_mcloudde_parkhuserhamburg> ;
+        dct:title          "Parkhäuser Hamburg" ;
+        dcat:distribution  <http://projekt-opal.de/distribution/_mcloudde_parkhuserhamburg_1> , <http://projekt-opal.de/distribution/_mcloudde_parkhuserhamburg_4> , <http://projekt-opal.de/distribution/_mcloudde_parkhuserhamburg_5> , <http://projekt-opal.de/distribution/_mcloudde_parkhuserhamburg_2> , <http://projekt-opal.de/distribution/_mcloudde_parkhuserhamburg_6> , <http://projekt-opal.de/distribution/_mcloudde_parkhuserhamburg_0> , <http://projekt-opal.de/distribution/_mcloudde_parkhuserhamburg_3> ;
+        dcat:landingPage   <https://mcloud.de/web/guest/suche/-/results/detail/_mcloudde_parkhuserhamburg?_mcloudsearchportlet_backURL=https%3A%2F%2Fmcloud.de%2Fweb%2Fguest%2Fsuche%2F-%2Fresults%2FsearchAction%3F_mcloudsearchportlet_page%3D53%26_mcloudsearchportlet_sort%3Dlatest> ;
+        dcat:theme         <http://projeckt-opal.de/theme/mcloud/street> ;
+        <http://www.w3.org/ns/dqv#hasQualityMeasurement>
+                <http://projekt-opal.de/measurement4804> , <http://projekt-opal.de/measurement4809> , <http://projekt-opal.de/measurement4807> , <http://projekt-opal.de/measurement4808> , <http://projekt-opal.de/measurement4805> , <http://projekt-opal.de/measurement4806> , <http://projekt-opal.de/measurement4803> .
+
+<http://projekt-opal.de/measurement4949>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/Timeliness> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement3855>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/LinkedDataRepresentation> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/distribution/2b8f6a7d-f92a-4a91-9b73-175c02d0c894_0>
+        a                 dcat:Distribution ;
+        dcat:downloadURL  <https://mcloud.de/export/datasets/2b8f6a7d-f92a-4a91-9b73-175c02d0c894> .
+
+<http://projekt-opal.de/measurement4759>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/ContactUrl> ;
+        <http://www.w3.org/ns/dqv#value>
+                "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/distribution/_mcloudde_mdmarbeitsstellenlngererdaueraufbabinhamburg_3>
+        a                 dcat:Distribution ;
+        dct:license       <http://www.geodatenzentrum.de/docpdf/geonutzv.pdf> ;
+        dcat:downloadURL  <https://www.arcgis.com/home/item.html?id=4e5e7c90e0cd4aa08d6ffb95c1036849> .
+
+<http://projekt-opal.de/measurement5903>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/Timeliness> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement3665>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/KnownLicense> ;
+        <http://www.w3.org/ns/dqv#value>
+                "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement6807>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/Timeliness> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement4569>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/LinkedDataRepresentation> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement5713>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/LinkedDataRepresentation> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement6617>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/LinkedDataRepresentation> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement4379>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/LinkedDataRepresentation> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement5523>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/ContactUrl> ;
+        <http://www.w3.org/ns/dqv#value>
+                "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement6427>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/ContactUrl> ;
+        <http://www.w3.org/ns/dqv#value>
+                "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+

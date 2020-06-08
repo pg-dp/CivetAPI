@@ -19,10 +19,11 @@ import org.springframework.web.multipart.MultipartFile;
  */
 
 @RestController
-public class DateFormatController {
+public class MetricsController {
 
-	@PostMapping("/uploadFile")
-	public int uploadFile(@RequestParam("file") MultipartFile file, @RequestParam String dataSet) throws Exception {
+	@PostMapping("/uploadFile/DateFormat")
+	public int uploadFileDateFormat(@RequestParam("file") MultipartFile file, @RequestParam String dataSet)
+			throws Exception {
 
 		/* Creating a Default model to Load the turtle file */
 		Model model = ModelFactory.createDefaultModel();
@@ -37,8 +38,37 @@ public class DateFormatController {
 		Civet civet = new Civet();
 		civet.setRemoveMeasurements(true);
 
+		/* If it should be logged, if a measurement could not be computed */
+		civet.setLogNotComputed(true);
+
 		/* Compute model and datasetUri */
 		DateFormatMetric metric = new DateFormatMetric();
 		return metric.compute(model, datasetUri);
 	}
+
+	@PostMapping("/uploadFile/Description")
+	public int uploadFileDescription(@RequestParam("file") MultipartFile file, @RequestParam String dataSet)
+			throws Exception {
+
+		/* Creating a Default model to Load the turtle file */
+		Model model = ModelFactory.createDefaultModel();
+
+		/* Reading the turtle file */
+		model.read(new ByteArrayInputStream(file.getBytes()), null, "TTL");
+
+		/* Reading the datasetUri */
+		String datasetUri = new String(dataSet.getBytes(), StandardCharsets.UTF_8);
+
+		/* If existing measurements should be removed */
+		Civet civet = new Civet();
+		civet.setRemoveMeasurements(true);
+
+		/* If it should be logged, if a measurement could not be computed */
+		civet.setLogNotComputed(true);
+
+		/* Compute model and datasetUri */
+		DescriptionMetric metric = new DescriptionMetric();
+		return metric.compute(model, datasetUri);
+	}
+
 }
