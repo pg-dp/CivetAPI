@@ -71,4 +71,54 @@ public class MetricsController {
 		return metric.compute(model, datasetUri);
 	}
 
+	@PostMapping("/uploadFile/ProviderIdentity")
+	public int uploadFileProviderIdentity(@RequestParam("file") MultipartFile file, @RequestParam String dataSet)
+			throws Exception {
+
+		/* Creating a Default model to Load the turtle file */
+		Model model = ModelFactory.createDefaultModel();
+
+		/* Reading the turtle file */
+		model.read(new ByteArrayInputStream(file.getBytes()), null, "TTL");
+
+		/* Reading the datasetUri */
+		String datasetUri = new String(dataSet.getBytes(), StandardCharsets.UTF_8);
+
+		/* If existing measurements should be removed */
+		Civet civet = new Civet();
+		civet.setRemoveMeasurements(true);
+
+		/* If it should be logged, if a measurement could not be computed */
+		civet.setLogNotComputed(true);
+
+		/* Compute model and datasetUri */
+		ProviderIdentityMetric metric = new ProviderIdentityMetric();
+		return metric.compute(model, datasetUri);
+	}
+
+	@PostMapping("/uploadFile/LicensesMetric")
+	public int uploadFileLicensesMetric(@RequestParam("file") MultipartFile file, @RequestParam String dataSet)
+			throws Exception {
+
+		/* Creating a Default model to Load the turtle file */
+		Model model = ModelFactory.createDefaultModel();
+
+		/* Reading the turtle file */
+		model.read(new ByteArrayInputStream(file.getBytes()), null, "TTL");
+
+		/* Reading the datasetUri */
+		String datasetUri = new String(dataSet.getBytes(), StandardCharsets.UTF_8);
+
+		/* If existing measurements should be removed */
+		Civet civet = new Civet();
+		civet.setRemoveMeasurements(true);
+
+		/* If it should be logged, if a measurement could not be computed */
+		civet.setLogNotComputed(true);
+
+		/* Compute model and datasetUri */
+		AvailabilityOfLicensesMetric metric = new AvailabilityOfLicensesMetric();
+		return metric.compute(model, datasetUri);
+	}
+
 }
