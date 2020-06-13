@@ -14,7 +14,7 @@ How to run the application:
 4. Send the post request to the endpoint, the return result will be evaluated star.
 
 Example queries
-localhost:8080/uploadFile/DateFormat
+localhost:8080/uploadFile/DateFormat,
 localhost:8080/uploadFile/Description
 
 Done: (i). Send file and datasetUri(in parameters) using POST request.
