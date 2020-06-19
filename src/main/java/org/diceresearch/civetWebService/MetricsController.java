@@ -142,7 +142,7 @@ public class MetricsController {
 		civet.setLogNotComputed(true);
 
 		/* Compute model and datasetUri */
-		AvailabilityOfLicensesMetric metric = new AvailabilityOfLicensesMetric();
+		DataFormatMetric metric = new DataFormatMetric();
 		return metric.compute(model, datasetUri);
 	}
 
