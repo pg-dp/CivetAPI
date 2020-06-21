@@ -12,9 +12,12 @@ This is a spring-boot Maven app. So download this repository and in the root fol
 (ii) Give datasetUri and give the key value = dataset.
 4. Send the post request to the endpoint, the return result will be evaluated star.
 
+## Model test turtle files can be found here:
+- https://github.com/pg-dp/CivetAPI/tree/all-metrics-api/src/test/resources
+
 ### Example queries:
-- localhost:8080/uploadFile/DateFormat,
-- localhost:8080/uploadFile/Description,
-- localhost:8080/uploadFile/ProviderIdentity,
-- localhost:8080/uploadFile/Licenses,
-- localhost:8080/uploadFile/DataFormat.
+- https://localhost:8080/uploadFile/DateFormat,
+- https://localhost:8080/uploadFile/Description,
+- https://localhost:8080/uploadFile/ProviderIdentity,
+- https://localhost:8080/uploadFile/Licenses,
+- https://localhost:8080/uploadFile/DataFormat.
