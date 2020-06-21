@@ -1,3 +1,5 @@
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/90ef5ca5918242e9bba1859d96c06110)](https://www.codacy.com/gh/pg-dp/civet?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=pg-dp/civet&amp;utm_campaign=Badge_Grade)
+
 ## Spring-Boot-WebServices-Civet
 
 This is a spring-boot Maven app. So download this repository and in the root folder of this repository (the folder where the pom.xml can be found) open a terminal and run this command, mvn spring-boot:run.
