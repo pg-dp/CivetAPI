@@ -1,3 +1,6 @@
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix dcat:  <http://www.w3.org/ns/dcat#> .
+
 <http://projekt-opal.de/dataset/https___europeandataportal_eu_set_data_bsii3_zdos>
         a                  dcat:Dataset ;
         dct:description    "V tej zbirki so samodejno zajeti metapodatki, katerih vir je BANKA SLOVENIJE in ustrezajo izvorni zbirki z naslovom \"Zunanji dolg - Obveznosti - mio EUR (BPM6)\".\n\nDejanski podatki so na voljo v formatu PC-Axis (.px). Med dodatnimi povezavami lahko dostopate do strani izvornega portala za vpogled in izbor podatkov, na voljo pa je tudi program PX-Win, ki si ga lahko brezplačno prenesete. Oba omogočata izbor podatkov za prikaz, spreminjanje oblike izpisa in shranjevanje v različne formate, poleg tega pa tudi pregledovanje in izpis tabel neomejene velikosti ter nekaj osnovnih statističnih analiz in grafičnih prikazov."@sl ;
