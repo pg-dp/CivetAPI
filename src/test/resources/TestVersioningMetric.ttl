@@ -1,0 +1,140 @@
+<http://projekt-opal.de/dataset/https___europeandataportal_eu_set_data_f368cc99_e791_47b4_ba4f_5c148140d00e>
+        a                  dcat:Dataset ;
+        dct:description    "Довідник" ;
+        dct:identifier     "f368cc99-e791-47b4-ba4f-5c148140d00e" ;
+        dct:issued         "2019-03-01T14:13:45.820713"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        dct:language       "ua" ;
+        dct:modified       "2019-03-01T14:14:59.252649"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        dct:publisher      <https://data.gov.ua/organization/970ccd7a-6876-4ee8-a0f4-987d957166f3> ;
+        dct:title          "Довідник ЗДО №264" ;
+        <http://www.w3.org/2002/07/owl#versionInfo>
+                "1.0" ;
+        dcat:contactPoint  [ a       <http://www.w3.org/2006/vcard/ns#Organization> ;
+                             <http://www.w3.org/2006/vcard/ns#fn>
+                                     "Круглова Тамара Василівна" ;
+                             <http://www.w3.org/2006/vcard/ns#hasEmail>
+                                     <mailto:dnz264@ukr.net>
+                           ] ;
+        dcat:distribution  <http://projekt-opal.de/distribution/https___europeandataportal_eu_set_distribution_2afeb390_17a5_462e_bc83_6d7ec0d85491> ;
+        dcat:keyword       "адресний довідник" ;
+        <http://www.w3.org/ns/dqv#hasQualityMeasurement>
+                <http://projekt-opal.de/measurement214379> , <http://projekt-opal.de/measurement214381> , <http://projekt-opal.de/measurement214380> , <http://projekt-opal.de/measurement214378> , <http://projekt-opal.de/measurement214382> , <http://projekt-opal.de/measurement214377> , <http://projekt-opal.de/measurement214376> .
+
+<http://projekt-opal.de/measurement215431>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/LinkedDataRepresentation> ;
+        <http://www.w3.org/ns/dqv#value>
+                "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement215691>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/Timeliness> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement213996>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/ContactUrl> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/distribution/https___europeandataportal_eu_set_distribution_46efa969_fa49_404b_bcfa_12d42519ee8d>
+        a               dcat:Distribution ;
+        dct:license     []  ;
+        dct:license     []  ;
+        dct:rights      []  ;
+        dct:rights      []  ;
+        dct:rights      []  ;
+        dct:rights      []  ;
+        <http://www.w3.org/2011/content#characterEncoding>
+                "UTF-8" ;
+        <http://www.w3.org/ns/adms#representationTechnique>
+                <http://inspire.ec.europa.eu/metadata-codelist/SpatialRepresentationTypeCode/grid> ;
+        dcat:accessURL  <http://www.geobasis-bb.de/dienstleister/testdaten/dtk10.zip> .
+
+<http://projekt-opal.de/measurement216142>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/LinkedDataRepresentation> ;
+        <http://www.w3.org/ns/dqv#value>
+                "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement214447>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/Timeliness> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement216736>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/Timeliness> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/distribution/https___europeandataportal_eu_set_distribution_8a8251ee_2a66_4457_8ae0_72cda938fb57>
+        a               dcat:Distribution ;
+        dct:format      []  ;
+        dct:format      []  ;
+        dct:license     []  ;
+        dct:license     []  ;
+        dct:rights      []  ;
+        dct:rights      []  ;
+        dct:rights      []  ;
+        dct:rights      []  ;
+        dct:title       "view"@en ;
+        dcat:accessURL  <http://geoportal.osl-online.de/wss/service/BP_Lauchhammer_WMS/guest> .
+
+<http://projekt-opal.de/measurement216996>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/KnownLicense> ;
+        <http://www.w3.org/ns/dqv#value>
+                "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://org.belgif.be/id/cbe/org/0349_294_822>
+        a       <http://xmlns.com/foaf/0.1/Organization> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "KMI"@nl , "IRM"@fr , "RMI"@en .
+
+<http://projekt-opal.de/measurement215158>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/MultipleSerializations> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/distribution/https___europeandataportal_eu_set_distribution_ea1643d7_5f2d_4eef_9362_908b843b789c>
+        a               dcat:Distribution ;
+        dct:format      []  ;
+        dct:format      []  ;
+        dct:format      []  ;
+        dct:license     []  ;
+        dct:license     []  ;
+        dct:license     []  ;
+        dct:rights      []  ;
+        dct:rights      []  ;
+        dct:rights      []  ;
+        dct:rights      []  ;
+        dct:rights      []  ;
+        dct:rights      []  ;
+        dct:title       "view"@en ;
+        dcat:accessURL  <http://www.punktyadresowe.pl/cgi-bin/wms/061107> .
+
+<http://projekt-opal.de/measurement214943>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/MultipleSerializations> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement215060>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/Description> ;
+        <http://www.w3.org/ns/dqv#value>
+                "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .

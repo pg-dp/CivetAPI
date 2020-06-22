@@ -1,0 +1,35 @@
+<http://projekt-opal.de/dataset/https___europeandataportal_eu_set_data_de6f2062_c0f9_4bb3_858d_d722250b322b>
+        a                  dcat:Dataset ;
+        dct:description    "Rechnungsabschluss der Gemeinde - Einnahmen und Ausgaben" ;
+        dct:identifier     "de6f2062-c0f9-4bb3-858d-d722250b322b" ;
+        dct:issued         "2017-12-21T18:36:16.745159";
+        dct:modified       "2020-01-10T12:26:23+02:00";
+        dct:publisher      <https://www.data.gv.at/organization/f07172d7-d5f8-45df-9982-5a8d663ea3dc> ;
+        dct:title          "Rechnungsabschluss Goldegg 2016 (Statistik Austria)" ;
+        dcat:contactPoint  [ a       <http://www.w3.org/2006/vcard/ns#Organization> ;
+                             <http://www.w3.org/2006/vcard/ns#fn>
+                                     "Goldegg"
+                           ] ;
+        dcat:contactPoint  [ a       <http://www.w3.org/2006/vcard/ns#Organization> ;
+                             <http://www.w3.org/2006/vcard/ns#fn>
+                                     "Goldegg"
+                           ] ;
+        dcat:distribution  <http://projekt-opal.de/distribution/https___europeandataportal_eu_set_distribution_775dd228_0228_4242_b917_c6d60b50260c> ;
+        dcat:keyword       "Ausgaben" , "Haushalt" , "Gemeindefinanzen" , "Offenerhaushalt.at" , "Rechnungsabschluss" , "Gemeinde" , "Einnahmen" ;
+        <http://www.w3.org/ns/dqv#hasQualityMeasurement>
+                <http://projekt-opal.de/measurement2077319> , <http://projekt-opal.de/measurement2077315> , <http://projekt-opal.de/measurement2077316> , <http://projekt-opal.de/measurement2077320> , <http://projekt-opal.de/measurement2077317> , <http://projekt-opal.de/measurement2077318> , <http://projekt-opal.de/measurement2077314> .
+
+<http://projekt-opal.de/distribution/https___europeandataportal_eu_set_distribution_78dd511a_3e26_4330_995d_c1c913f5caa9>
+        a                dcat:Distribution ;
+        dct:description  "- *année*: annee[text] Année\n- *mois*: mois[text] Mois\n- *id_equipement*: id_equipement[text] Identifiant unique de l'équipement\n- *nom_equipement*: nom_equipement[text] Nom de l'équipement\n- *ligne_four*: ligne_four[int] Ligne de four de l'incinérateur\n- *code_rejet*: code_rejet[text] Code du rejet \n- *libelle_rejet*: libelle_rejet[text] Nature du rejet\n- *seuil_jour*: seuil_jour[int] Valeur seuil en mg/Nm3\n- *valeur_moyenne_jour*: valeur_moyenne_jour[double] Valeur moyenne en mg/Nm3\n- *siret_source*: siret_source[int] Siret du gestionnaire de l'équipement\n- *date_maj*: date_maj[date] Date de mise à jour\n- *commune*: commune[text] Commune\n- *geoloc*: geoloc[geo_point_2d] Géolocalisation\n- *libelle_service_public*: libelle_service_public[text] Libellé du service\n"@fr ;
+        dct:issued       "2019-04-08T09:01:27.056000" ;
+        dct:modified     "2018-08-22T15:47:21" ;
+        dct:title        "Export au format CSV"@fr ;
+        dcat:accessURL   <http://data.laregion.fr/explore/dataset/decoset-rejets-atmospheriques-incineration/download?format=csv&timezone=Europe/Berlin&use_labels_for_header=true> .
+
+<http://projekt-opal.de/measurement2077686>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/ContactUrl> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
