@@ -1,0 +1,193 @@
+<http://projekt-opal.de/dataset/https___europeandataportal_eu_set_data_pr_aspro_00001_20170127_120846_ds10>
+        a                       dcat:Dataset ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "Spatial resolution (equivalent scale): 1:10000"@en ;
+        dct:accrualPeriodicity  <http://inspire.ec.europa.eu/metadata-codelist/MaintenanceFrequencyCode/notPlanned> ;
+        dct:conformsTo          [ dct:type  <http://inspire.ec.europa.eu/metadata-codelist/SpatialReferenceSystem> ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel>
+                                          "WGS84/UTM 33N"@it
+                                ] ;
+        dct:conformsTo          [ dct:type  <http://inspire.ec.europa.eu/metadata-codelist/SpatialReferenceSystem> ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel>
+                                          "WGS84/UTM 33N"@it
+                                ] ;
+        dct:description         "La carta geomorfologica rappresenta le forme di accumulo ed erosione dei rilievi configurandone i caratteri sia morfografici che morfometrici. Inoltre, fornisce utili indicazioni per indagini applicative in relazione a all'individuazione di misure gestionali volte alla salvaguardia ambientale e alla valutazione dei processi capaci di creare condizioni di rischio per persone ed attività socio-economiche in generale."@it ;
+        dct:identifier          "pr_aspro:05" ;
+        dct:isPartOf            [ dct:identifier  "pr_aspro:00001:20170127:120846_DS10" ] ;
+        dct:isPartOf            [ dct:identifier  "pr_aspro:00001:20170127:120846_DS10" ] ;
+        dct:language            <http://publications.europa.eu/resource/authority/language/ITA> ;
+        dct:provenance          [ a       dct:ProvenanceStatement ;
+                                  <http://www.w3.org/2000/01/rdf-schema#label>
+                                          "Raccolta di cartografie vigenti allegate agli atti ititutivi o alle loro modifiche e ai relativi strumenti di pianificazione."@it
+                                ] ;
+        dct:provenance          [ a       dct:ProvenanceStatement ;
+                                  <http://www.w3.org/2000/01/rdf-schema#label>
+                                          "Raccolta di cartografie vigenti allegate agli atti ititutivi o alle loro modifiche e ai relativi strumenti di pianificazione."@it
+                                ] ;
+        dct:spatial             [ a       dct:Location ;
+                                  <http://www.w3.org/ns/locn#geometry>
+                                          "POLYGON((15.630061730631 38.213081420367,15.86423132308 38.213081420367,15.86423132308 37.99138352508,15.630061730631 37.99138352508,15.630061730631 38.213081420367))"^^<http://www.openlinksw.com/schemas/virtrdf#Geometry> , "<gml:Envelope srsName=\"http://www.opengis.net/def/EPSG/0/4326\"><gml:lowerCorner>37.9913835250804 15.6300617306309</gml:lowerCorner><gml:upperCorner>38.2130814203669 15.8642313230799</gml:upperCorner></gml:Envelope>"^^<http://www.opengis.net/ont/geosparql#gmlLiteral>
+                                ] ;
+        dct:spatial             [ a       dct:Location ;
+                                  <http://www.w3.org/ns/locn#geometry>
+                                          "POLYGON((15.630061730631 38.213081420367,15.86423132308 38.213081420367,15.86423132308 37.99138352508,15.630061730631 37.99138352508,15.630061730631 38.213081420367))"^^<http://www.openlinksw.com/schemas/virtrdf#Geometry> , "<gml:Envelope srsName=\"http://www.opengis.net/def/EPSG/0/4326\"><gml:lowerCorner>37.9913835250804 15.6300617306309</gml:lowerCorner><gml:upperCorner>38.2130814203669 15.8642313230799</gml:upperCorner></gml:Envelope>"^^<http://www.opengis.net/ont/geosparql#gmlLiteral>
+                                ] ;
+        dct:subject             <http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/planningCadastre> ;
+        dct:title               "Geomorfologia"@it ;
+        dct:type                <http://inspire.ec.europa.eu/metadata-codelist/ResourceType/series> ;
+        dcat:contactPoint       [ a       <http://www.w3.org/2006/vcard/ns#Organization> ;
+                                  <http://www.w3.org/2006/vcard/ns#hasAddress>
+                                          []  ;
+                                  <http://www.w3.org/2006/vcard/ns#hasEmail>
+                                          <mailto:info.posta@parcoaspromonte.gov.it> ;
+                                  <http://www.w3.org/2006/vcard/ns#hasTelephone>
+                                          <tel:+0965743060> ;
+                                  <http://www.w3.org/2006/vcard/ns#hasURL>
+                                          <http://www.parcoaspromonte.gov.it/> ;
+                                  <http://www.w3.org/2006/vcard/ns#organization-name>
+                                          "Parco Nazionale dell'Aspromonte"
+                                ] ;
+        dcat:contactPoint       [ a       <http://www.w3.org/2006/vcard/ns#Organization> ;
+                                  <http://www.w3.org/2006/vcard/ns#hasAddress>
+                                          []  ;
+                                  <http://www.w3.org/2006/vcard/ns#hasEmail>
+                                          <mailto:info.posta@parcoaspromonte.gov.it> ;
+                                  <http://www.w3.org/2006/vcard/ns#hasTelephone>
+                                          <tel:+0965743060> ;
+                                  <http://www.w3.org/2006/vcard/ns#hasURL>
+                                          <http://www.parcoaspromonte.gov.it/> ;
+                                  <http://www.w3.org/2006/vcard/ns#organization-name>
+                                          "Parco Nazionale dell'Aspromonte"
+                                ] ;
+        dcat:landingPage        <http://www.parcoaspromonte.gov.it/opendata/> ;
+        dcat:theme              <http://eurovoc.europa.eu/100151> , <http://publications.europa.eu/resource/authority/data-theme/TECH> , <http://eurovoc.europa.eu/1151> , <http://inspire.ec.europa.eu/theme/ge> ;
+        <http://www.w3.org/ns/dqv#hasQualityMeasurement>
+                <http://projekt-opal.de/measurement1386409> , <http://projekt-opal.de/measurement1386413> , <http://projekt-opal.de/measurement1386408> , <http://projekt-opal.de/measurement1386412> , <http://projekt-opal.de/measurement1386407> , <http://projekt-opal.de/measurement1386411> , <http://projekt-opal.de/measurement1386410> ;
+        <http://www.w3.org/ns/prov#wasUsedBy>
+                [ a       <http://www.w3.org/ns/prov#Activity> ;
+                  <http://www.w3.org/ns/prov#generated>
+                          []  ;
+                  <http://www.w3.org/ns/prov#qualifiedAssociation>
+                          [] 
+                ] ;
+        <http://www.w3.org/ns/prov#wasUsedBy>
+                [ a       <http://www.w3.org/ns/prov#Activity> ;
+                  <http://www.w3.org/ns/prov#generated>
+                          []  ;
+                  <http://www.w3.org/ns/prov#qualifiedAssociation>
+                          [] 
+                ] ;
+        <http://xmlns.com/foaf/0.1/isPrimaryTopicOf>
+                [ a               dcat:CatalogRecord ;
+                  dct:identifier  "pr_aspro:00001:20170127:120846_DS10" ;
+                  dct:language    <http://publications.europa.eu/resource/authority/language/ITA> ;
+                  dct:source      []  ;
+                  <http://www.w3.org/2011/content#characterEncoding>
+                          "UTF-8"
+                ] ;
+        <http://xmlns.com/foaf/0.1/isPrimaryTopicOf>
+                [ a                  dcat:CatalogRecord ;
+                  dct:identifier     "pr_aspro:00001:20170127:120846_DS10" ;
+                  dct:language       <http://publications.europa.eu/resource/authority/language/ITA> ;
+                  dct:source         []  ;
+                  <http://www.w3.org/2011/content#characterEncoding>
+                          "UTF-8" ;
+                  dcat:contactPoint  [] 
+                ] .
+
+<http://projekt-opal.de/measurement1388744>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/Categorization> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement1387650>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/MultipleSerializations> ;
+        <http://www.w3.org/ns/dqv#value>
+                "1.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement1388554>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/KnownLicense> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/distribution/https___europeandataportal_eu_set_distribution_e2d57a5f_3d86_4eeb_972c_3bc398d688a6>
+        a               dcat:Distribution ;
+        dct:issued      "2017-08-10T06:06:44.210000" ;
+        dct:modified    "2017-08-10T06:06:44.210000" ;
+        dct:title       "Liste des points de prélèvements de la qualité des eaux de la ville de Cenon"@fr ;
+        dcat:accessURL  <https://datacat.datalocale.fr/file/416027/raw/listeObj_PP.csv> .
+
+<https://www.data.gouv.fr/fr/datasets/ppr-sare-64ddtm20080014-perimetre-du-plan-de-prevention-du-risque-inondation-de-sare-64504-depa/>
+        a       <http://xmlns.com/foaf/0.1/Document> .
+
+<http://projekt-opal.de/measurement1387460>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/LinkedDataRepresentation> ;
+        <http://www.w3.org/ns/dqv#value>
+                "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement1388364>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/LinkedDataRepresentation> ;
+        <http://www.w3.org/ns/dqv#value>
+                "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/distribution/https___europeandataportal_eu_set_distribution_b9040a36_3d03_431a_8d5c_8fcf2ac1972f>
+        a                dcat:Distribution ;
+        dct:description  "Conversion à la volée au format GeoJSON"@fr ;
+        dct:issued       "2019-04-18T06:54:50.720000" ;
+        dct:modified     "2019-04-18T06:54:50.720000" ;
+        dct:title        "N_BRUIT_ZBR_R_A_LD_S_001.shp (export GeoJSON)"@fr ;
+        dcat:accessURL   <https://transcode.geo.data.gouv.fr/links/5c03595de21d2363215c1b67/downloads/5cb7c1844d5029591ef6292e?format=GeoJSON&projection=WGS84> .
+
+<http://projekt-opal.de/measurement1387270>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/Description> ;
+        <http://www.w3.org/ns/dqv#value>
+                "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement1388174>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/ContactUrl> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/distribution/https___europeandataportal_eu_set_distribution_168b85d4_5799_4c61_a39a_c450fa46bbe1>
+        a                dcat:Distribution ;
+        dct:description  "Conversion à la volée au format Shapefile (WGS-84)"@fr ;
+        dct:issued       "2019-04-07T06:40:34.341000" ;
+        dct:modified     "2019-04-07T06:40:34.341000" ;
+        dct:title        "N_ORIG_RISQ_PPRT_51DREAL20090002_S_054.shp (export SHP/WGS-84)"@fr ;
+        dcat:accessURL   <https://transcode.geo.data.gouv.fr/links/5bfd5e6bcb932f87810688c4/downloads/5ca93dee4d502920edf42b8b?format=SHP&projection=WGS84> .
+
+<http://projekt-opal.de/measurement1387080>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/ContactUrl> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/distribution/https___europeandataportal_eu_set_distribution_f7a38e8b_8a76_4ded_ae18_6c7b9995c6f6>
+        a                dcat:Distribution ;
+        dct:description  "Conversion à la volée au format GeoJSON"@fr ;
+        dct:issued       "2019-04-20T07:15:38.207000" ;
+        dct:modified     "2019-04-20T07:15:38.207000" ;
+        dct:title        "N_PRESCRIPTION_SURF_80110_080.TAB (export GeoJSON)"@fr ;
+        dcat:accessURL   <https://transcode.geo.data.gouv.fr/links/5bfd60cecb932f87810d7eb3/downloads/5cb67586172753480775fdb4?format=GeoJSON&projection=WGS84> .
+
+<http://projekt-opal.de/distribution/https___europeandataportal_eu_set_distribution_235ab3e6_8710_4202_b5cf_780acb30dddd>
+        a               dcat:Distribution ;
+        dct:issued      "2017-09-12T07:49:26.617000" ;
+        dct:modified    "2017-09-29T07:52:43.056000" ;
+        dct:title       "les volumes prélevés par usages pour chaque\r\ncompteur."@fr ;
+        dcat:accessURL  <https://datacat.datalocale.fr/file/416035/raw/volumesOpr_PP_51aba6659c4aa.csv> .

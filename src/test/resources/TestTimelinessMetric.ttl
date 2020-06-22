@@ -1,3 +1,6 @@
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix dcat:  <http://www.w3.org/ns/dcat#> .
+
 <http://projekt-opal.de/dataset/https___europeandataportal_eu_set_data_de6f2062_c0f9_4bb3_858d_d722250b322b>
         a                  dcat:Dataset ;
         dct:description    "Rechnungsabschluss der Gemeinde - Einnahmen und Ausgaben" ;

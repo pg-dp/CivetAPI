@@ -1,3 +1,6 @@
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix dcat:  <http://www.w3.org/ns/dcat#> .
+
 <http://projekt-opal.de/dataset/https___europeandataportal_eu_set_data_de68f4fc_2886_4775_9537_2bf21d81dff7>
         a                       dcat:Dataset ;
         dct:accrualPeriodicity  <http://inspire.ec.europa.eu/metadata-codelist/MaintenanceFrequencyCode/QUARTERLY> ;

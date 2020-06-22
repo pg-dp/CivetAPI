@@ -1,0 +1,222 @@
+<http://projekt-opal.de/dataset/https___europeandataportal_eu_set_data_bsii3_zdos>
+        a                  dcat:Dataset ;
+        dct:description    "V tej zbirki so samodejno zajeti metapodatki, katerih vir je BANKA SLOVENIJE in ustrezajo izvorni zbirki z naslovom \"Zunanji dolg - Obveznosti - mio EUR (BPM6)\".\n\nDejanski podatki so na voljo v formatu PC-Axis (.px). Med dodatnimi povezavami lahko dostopate do strani izvornega portala za vpogled in izbor podatkov, na voljo pa je tudi program PX-Win, ki si ga lahko brezplačno prenesete. Oba omogočata izbor podatkov za prikaz, spreminjanje oblike izpisa in shranjevanje v različne formate, poleg tega pa tudi pregledovanje in izpis tabel neomejene velikosti ter nekaj osnovnih statističnih analiz in grafičnih prikazov."@sl ;
+        dct:publisher      [ a       <http://xmlns.com/foaf/0.1/Organization> ;
+                             <http://xmlns.com/foaf/0.1/name>
+                                     "BANKA SLOVENIJE"
+                           ] ;
+        dct:publisher      [ a       <http://xmlns.com/foaf/0.1/Organization> ;
+                             <http://xmlns.com/foaf/0.1/name>
+                                     "BANKA SLOVENIJE"
+                           ] ;
+        dct:publisher      [ a       <http://xmlns.com/foaf/0.1/Organization> ;
+                             <http://xmlns.com/foaf/0.1/name>
+                                     "BANKA SLOVENIJE"
+                           ] ;
+        dct:title          "Zunanji dolg - Obveznosti - mio EUR (BPM6)"@sl ;
+        dcat:contactPoint  [ a       <http://www.w3.org/2006/vcard/ns#Kind> ;
+                             <http://www.w3.org/2006/vcard/ns#fn>
+                                     "BANKA SLOVENIJE"
+                           ] ;
+        dcat:contactPoint  [ a       <http://www.w3.org/2006/vcard/ns#Kind> ;
+                             <http://www.w3.org/2006/vcard/ns#fn>
+                                     "BANKA SLOVENIJE"
+                           ] ;
+        dcat:contactPoint  [ a       <http://www.w3.org/2006/vcard/ns#Kind> ;
+                             <http://www.w3.org/2006/vcard/ns#fn>
+                                     "BANKA SLOVENIJE"
+                           ] ;
+        dcat:distribution  <http://projekt-opal.de/distribution/https___europeandataportal_eu_set_distribution_aaa86820_459c_4636_9cc4_5c55236fc898> , <http://projekt-opal.de/distribution/https___europeandataportal_eu_set_distribution_21c4d714_7368_46fb_acf9_988c0087a0d7> , <http://projekt-opal.de/distribution/https___europeandataportal_eu_set_distribution_a2eb5e08_6664_4c6a_97a2_35e27dee0656> ;
+        dcat:keyword       "zunanji zajem PCAXIS"@sl ;
+        <http://www.w3.org/ns/dqv#hasQualityMeasurement>
+                <http://projekt-opal.de/measurement16131> , <http://projekt-opal.de/measurement16132> , <http://projekt-opal.de/measurement16129> , <http://projekt-opal.de/measurement16133> , <http://projekt-opal.de/measurement16134> , <http://projekt-opal.de/measurement16130> , <http://projekt-opal.de/measurement16135> .
+
+<http://projekt-opal.de/distribution/https___europeandataportal_eu_set_distribution_eaf6af97_5c53_4878_98cd_3a846c5be8fa>
+        a                dcat:Distribution ;
+        dct:description  "2.2 Obrestne mere na denarnem trgu in revalorizacijske stopnje - stare serije do 31.12.2006"@sl ;
+        dct:format       <http://publications.europa.eu/resource/authority/file-type/PCAXIS> ;
+        dcat:accessURL   <https://apl.bsi.si/pxweb/dialog/Database/slo/serije/02_fin_trgi/01_om/I2_92S.px> .
+
+<http://projekt-opal.de/dataset/https___europeandataportal_eu_set_data_bp_2015_ville_de_rennes_budget_principal_par_sous_fonctions>
+        a                       dcat:Dataset ;
+        dct:accrualPeriodicity  <http://publications.europa.eu/resource/authority/frequency/UNKNOWN> ;
+        dct:description         "Le BP 2015 - budget principal correspond aux données du budget principal 2015 de la Ville de Rennes. Ce fichier est constitué de 5 colonnes qui ventilent les données :\n\n\\- par un critère de \"sous-fonction\". Le sous-fonction est la clef d'entrée permettant d'identifier la politique publique à laquelle la donnée budgétaire fait référence. Exemples: Piscine des Gayeulles, Action socio-éducative, Maitrise de l’Énergie, etc. Les codifications, internes à la Ville de Rennes, s'appuient néanmoins sur la nomenclature fonctionnelle M14 règlementaire\n\n\\- par un critère \"Dépenses-recettes\"\n\n\\- par un critère \"Investissement-Fonctionnement\": les dépenses et recettes des collectivités sont obligatoirement ventilées entre les deux fonctions d'investissement et de fonctionnement. La première recouvre schématiquement les dépenses qui concourent à l'amélioration du patrimoine de la Ville: travaux, acquisitions de biens immobiliers, etc. La seconde fait référence aux dépenses courantes de la Ville, notamment les dépenses de personnel, de fluides, de charges à caractère général.\n\n\\- par un critère de dépenses budgétaires ou analytiques: les dépenses budgétaires sont les dépenses réglementaires, inscrites et votées effectivement à chaque sous-fonction. Les dépenses analytiques correspondent à la re-ventilation, à des fins analytiques, de dépenses imputées de manière centralisée, et singulièrement les dépenses de fluides, l'intervention sur les bâtiments communaux, de maintenance du parc de véhicules, de produits stockés.\n\n\\- l'attribut \"article NFA code et libelle\" apparait dans le budget principal détaillé et par article : il s'agit des articles comptables réglementaires déterminés par l'instruction budgétaire et comptable M14 c’est-à-dire le cadre juridique réglementant la comptabilité des communes"@fr ;
+        dct:issued              "2016-10-21T19:57:54.762000" ;
+        dct:publisher           [ a       <http://xmlns.com/foaf/0.1/Organization> ;
+                                  <http://xmlns.com/foaf/0.1/name>
+                                          "Rennes Métropole en accès libre"
+                                ] ;
+        dct:publisher           [ a       <http://xmlns.com/foaf/0.1/Organization> ;
+                                  <http://xmlns.com/foaf/0.1/name>
+                                          "Rennes Métropole en accès libre"
+                                ] ;
+        dct:title               "BP 2015 - Ville de Rennes - Budget Principal par sous fonctions"@fr ;
+        dcat:distribution       <http://projekt-opal.de/distribution/https___europeandataportal_eu_set_distribution_554045dd_eb68_4dca_923a_267502ef80bb> , <http://projekt-opal.de/distribution/https___europeandataportal_eu_set_distribution_9bb08e3d_9089_4167_b541_cdaedc1a9a02> ;
+        dcat:keyword            "economie"@fr , "budget"@fr ;
+        dcat:theme              <http://publications.europa.eu/resource/authority/data-theme/ECON> ;
+        <http://www.w3.org/ns/dqv#hasQualityMeasurement>
+                <http://projekt-opal.de/measurement14045> , <http://projekt-opal.de/measurement14044> , <http://projekt-opal.de/measurement14043> , <http://projekt-opal.de/measurement14049> , <http://projekt-opal.de/measurement14048> , <http://projekt-opal.de/measurement14047> , <http://projekt-opal.de/measurement14046> ;
+        <http://xmlns.com/foaf/0.1/page>
+                <https://www.data.gouv.fr/fr/datasets/bp-2015-ville-de-rennes-budget-principal-par-sous-fonctions/> .
+
+<http://projekt-opal.de/distribution/https___europeandataportal_eu_set_distribution_62bad6e0_7727_4f04_9e79_5843c9bad844>
+        a               dcat:Distribution ;
+        dct:issued      "2018-12-19T10:31:22.895000" ;
+        dct:modified    "2018-12-19T10:31:28.703000" ;
+        dct:title       "la-moselle-en-chiffres-2015.pdf"@fr ;
+        <http://spdx.org/rdf/terms#checksum>
+                []  ;
+        dcat:accessURL  <https://download.data.public.lu/resources/brochures-dinformations-du-service-de-la-navigation/20181219-103120/la-moselle-en-chiffres-2015.pdf> .
+
+<http://projekt-opal.de/measurement15929>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/KnownLicense> ;
+        <http://www.w3.org/ns/dqv#value>
+                "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/distribution/https___europeandataportal_eu_set_distribution_cfde54bb_2cf9_4dd0_a9f4_51763d1dfe4b>
+        a                dcat:Distribution ;
+        dct:description  "January 2010 Update"@en ;
+        dct:format       <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+        dct:license      <http://reference.data.gov.uk/id/open-government-licence> ;
+        dcat:accessURL   <http://webarchive.nationalarchives.gov.uk/+/https://statistics.defra.gov.uk/esg/brewersns.htm> .
+
+<http://projekt-opal.de/measurement14835>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/Categorization> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement15739>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/Description> ;
+        <http://www.w3.org/ns/dqv#value>
+                "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement14645>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/KnownLicense> ;
+        <http://www.w3.org/ns/dqv#value>
+                "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement15549>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/Description> ;
+        <http://www.w3.org/ns/dqv#value>
+                "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement14455>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/KnownLicense> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement15359>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/ContactUrl> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement16503>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/Categorization> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement14265>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/Categorization> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement17407>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/MultipleSerializations> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement15169>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/Timeliness> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement16313>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/ContactUrl> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement14075>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/Timeliness> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement17217>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/MultipleSerializations> ;
+        <http://www.w3.org/ns/dqv#value>
+                "1.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://publications.europa.eu/resource/authority/data-theme/TRAN>
+        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inSchema>
+                <http://publications.europa.eu/resource/authority/data-theme/> ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Transport" .
+
+<http://projekt-opal.de/distribution/https___europeandataportal_eu_set_distribution_d872212b_e6ae_4c42_95f6_9c758bd3c959>
+        a                 dcat:Distribution ;
+        <http://data.europa.eu/88u/ontology/dcatapop#numberOfDownloads>
+                1 ;
+        dct:format        <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+        dct:issued        "2018-12-10 07:51:04.455367"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        dct:license       <http://publications.europa.eu/resource/authority/licence/COM_REUSE> ;
+        dct:title         "Download dataset in JSON format (not compressed)"@en ;
+        dct:type          <http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE> ;
+        <http://www.w3.org/ns/adms#status>
+                <http://publications.europa.eu/resource/authority/dataset-status/COMPLETED> ;
+        dcat:accessURL    <https://webgate.ec.europa.eu/empl/redisstat/api/dissemination/sdmx/2.1/data/lmp_partsumm?format=json&compressed=false> ;
+        dcat:downloadURL  <https://webgate.ec.europa.eu/empl/redisstat/api/dissemination/sdmx/2.1/data/lmp_partsumm?format=json&compressed=false> .
+
+<http://projekt-opal.de/measurement16123>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/Description> ;
+        <http://www.w3.org/ns/dqv#value>
+                "4.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement17027>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/LinkedDataRepresentation> ;
+        <http://www.w3.org/ns/dqv#value>
+                "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/distribution/https___europeandataportal_eu_set_distribution_6dc8d9e2_1166_40cc_991f_4cf3c9a4836c>
+        a                dcat:Distribution ;
+        dct:description  "Izbor podatkov"@sl ;
+        dct:format       <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+        dcat:accessURL   <https://apl.bsi.si/pxweb/Dialog/varval.asp?ma=I2_11_3S&ti=&lang=12&path=Database/slo/serije/02_fin_trgi/03_devizni_trg/> .
+
+<http://projekt-opal.de/measurement15961>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/MultipleSerializations> ;
+        <http://www.w3.org/ns/dqv#value>
+                "4.0"^^<http://www.w3.org/2001/XMLSchema#float> .
