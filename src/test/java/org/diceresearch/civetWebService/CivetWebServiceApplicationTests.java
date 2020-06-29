@@ -31,8 +31,7 @@ class CivetWebServiceApplicationTests {
 
         }
         file = new MockMultipartFile("TestTimelinessMetric.ttl", "TestTimelinessMetric.ttl", contentType, content);
-        int result = objContoller.uploadFileTimelinessMetric(file, dataset);
-        Assert.assertEquals(3, result);
+        Assert.assertEquals(3, objContoller.uploadFileTimelinessMetric(file, dataset));
     }
 
     @Test
@@ -46,8 +45,7 @@ class CivetWebServiceApplicationTests {
         }
 
         file = new MockMultipartFile("TestUpdaterateMetric.ttl", "TestUpdaterateMetric.ttl", contentType, content);
-        int result = objContoller.uploadFileUpdateRateMetric(file, dataset);
-        Assert.assertEquals(3, result);
+        Assert.assertEquals(3, objContoller.uploadFileUpdateRateMetric(file, dataset));
 
     }
 
@@ -62,8 +60,7 @@ class CivetWebServiceApplicationTests {
 
         }
         file = new MockMultipartFile("TestVersioningMetric.ttl", "TestVersioningMetric.ttl", contentType, content);
-        int result = objContoller.uploadFileVersionMetric(file, dataset);
-        Assert.assertEquals(5, result);
+        Assert.assertEquals(5, objContoller.uploadFileVersionMetric(file, dataset));
     }
 
     @Test
@@ -77,8 +74,7 @@ class CivetWebServiceApplicationTests {
 
         }
         file = new MockMultipartFile("TestAccessibilityMetric.ttl", "TestAccessibilityMetric.ttl", contentType, content);
-        int result = objContoller.uploadFileAccessibilityMetric(file, dataset);
-        Assert.assertEquals(0, result);
+        Assert.assertEquals(0, objContoller.uploadFileAccessibilityMetric(file, dataset));
     }
 
     @Test
@@ -92,8 +88,7 @@ class CivetWebServiceApplicationTests {
 
         }
         file = new MockMultipartFile("TestDataProviderIdentityMetric.ttl", "TestDataProviderIdentityMetric.ttl", contentType, content);
-        int result = objContoller.uploadFileProviderIdentity(file, dataset);
-        Assert.assertEquals(3, result);
+        Assert.assertEquals(3, objContoller.uploadFileProviderIdentity(file, dataset));
     }
 
     @Test
@@ -107,8 +102,7 @@ class CivetWebServiceApplicationTests {
 
         }
         file = new MockMultipartFile("TestReadabilityMetric.ttl", "TestReadabilityMetric.ttl", contentType, content);
-        int result = objContoller.uploadFileReadabilityMetric(file, dataset);
-        Assert.assertEquals(3, result);
+        Assert.assertEquals(3, objContoller.uploadFileReadabilityMetric(file, dataset));
     }
 
     @Test
@@ -122,8 +116,7 @@ class CivetWebServiceApplicationTests {
 
         }
         file = new MockMultipartFile("TestContactClassicInformationMetric.ttl", "TestContactClassicInformationMetric.ttl", contentType, content);
-        int result = objContoller.uploadFileContactClassicMetric(file, dataset);
-        Assert.assertEquals(2, result);
+        Assert.assertEquals(2, objContoller.uploadFileContactClassicMetric(file, dataset));
     }
 
     @Test
@@ -137,8 +130,7 @@ class CivetWebServiceApplicationTests {
 
         }
         file = new MockMultipartFile("TestContactEmailsMetric.ttl", "TestContactEmailsMetric.ttl", contentType, content);
-        int result = objContoller.uploadFileContactEmailMetric(file, dataset);
-        Assert.assertEquals(2, result);
+        Assert.assertEquals(2, objContoller.uploadFileContactEmailMetric(file, dataset));
     }
 
     @Test
@@ -152,8 +144,7 @@ class CivetWebServiceApplicationTests {
 
         }
         file = new MockMultipartFile("TestContactURL.ttl", "TestContactURL.ttl", contentType, content);
-        int result = objContoller.uploadFileContactURLMetric(file, dataset);
-        Assert.assertEquals(0, result);
+        Assert.assertEquals(0, objContoller.uploadFileContactURLMetric(file, dataset));
     }
 
 
@@ -168,8 +159,7 @@ class CivetWebServiceApplicationTests {
 
         }
         file = new MockMultipartFile("TestDataFormatMetric.ttl", "TestDataFormatMetric.ttl", contentType, content);
-        int result = objContoller.uploadFileDataFormatMetric(file, dataset);
-        Assert.assertEquals(3, result);
+        Assert.assertEquals(3, objContoller.uploadFileDataFormatMetric(file, dataset));
     }
 
     @Test
@@ -184,8 +174,7 @@ class CivetWebServiceApplicationTests {
         }
 
         file = new MockMultipartFile("TestDateFormatMetric.ttl", "TestDateFormatMetric.ttl", contentType, content);
-        int result = objContoller.uploadFileDateFormat(file, dataset);
-        Assert.assertEquals(4, result);
+        Assert.assertEquals(4, objContoller.uploadFileDateFormat(file, dataset));
     }
 
     @Test
@@ -200,8 +189,7 @@ class CivetWebServiceApplicationTests {
         }
 
         file = new MockMultipartFile("TestDescriptionMetric.ttl", "TestDescriptionMetric.ttl", contentType, content);
-        int result = objContoller.uploadFileDescription(file, dataset);
-        Assert.assertEquals(1, result);
+        Assert.assertEquals(1, objContoller.uploadFileDescription(file, dataset));
     }
 
     @Test
@@ -216,7 +204,6 @@ class CivetWebServiceApplicationTests {
         }
 
         file = new MockMultipartFile("TestDataLicensesMetric.ttl", "TestDataLicensesMetric.ttl", contentType, content);
-        int result = objContoller.uploadFileLicensesMetric(file, dataset);
-        Assert.assertEquals(5, result);
+        Assert.assertEquals(5, objContoller.uploadFileLicensesMetric(file, dataset));
     }
 }
