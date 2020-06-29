@@ -102,6 +102,7 @@ public class AccessibilityMetric implements Metric {
             sumRating+=i;
         }
 
+    if(sumRating != 0)
         averageRating=Math.round(sumRating/countURL);
 
         return averageRating;
