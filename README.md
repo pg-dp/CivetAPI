@@ -7,10 +7,10 @@ This is a spring-boot Maven app. So download this repository and in the root fol
 ## How to run the application:
 1. Clone the repository.
 2. Run Spring Boot Application
-3. Open Postman, under form-data:
+3. Open Postman, under Body, go to form-data:
 (i) Upload turtle file and give the key value = file.
-(ii) Give datasetUri and give the key value = dataset.
-4. Send the post request to the endpoint, the return result will be evaluated star.
+(ii) Give datasetUri and give the key value = dataSet.
+4. Send the POST request to the metric endpoint, the returned result will be evaluated star.
 
 ## Model test turtle files can be found here:
 - https://github.com/pg-dp/CivetAPI/tree/all-metrics-api/src/test/resources
