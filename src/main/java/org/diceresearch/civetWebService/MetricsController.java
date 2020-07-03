@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
 /**
- * This is a spring boot rest controller for reading RDF model and datasetUri
+ * This is a Spring-Boot Maven Application Rest Controller for reading RDF model and datasetUri
  * sent from postman and the returned result will be evaluated metric star.
  *
  * @author Aamir Mohammed

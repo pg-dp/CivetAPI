@@ -209,8 +209,7 @@ class CivetWebServiceApplicationTests {
 
     @Test
     public void testDescription() throws Exception {
-        dataset = "http://projekt-opal.de/dataset/_mcloudde_vieljhrlicherasterdesmittlerenvegetationsbeginns" +
-                "indeutschland";
+        dataset = "http://projekt-opal.de/dataset/_mcloudde_vieljhrlicherasterdesmittlerenvegetationsbeginnsindeutschland";
         path = Paths.get("src/test/resources/TestDescriptionMetric.ttl");
 
         try {
@@ -221,7 +220,7 @@ class CivetWebServiceApplicationTests {
 
         file = new MockMultipartFile("TestDescriptionMetric.ttl", "TestDescriptionMetric.ttl",
                 contentType, content);
-        Assert.assertEquals(1, objContoller.uploadFileDescription(file, dataset));
+        Assert.assertEquals(4, objContoller.uploadFileDescription(file, dataset));
     }
 
     @Test
