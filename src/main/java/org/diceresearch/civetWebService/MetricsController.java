@@ -337,4 +337,28 @@ public class MetricsController {
 		return metric.compute(model, datasetUri);
 	}
 
+	@PostMapping("/uploadFile/LanguageErrorMetric")
+	public int uploadFileLanguageErrorMetric(@RequestParam("file") MultipartFile file, @RequestParam String dataSet)
+			throws Exception {
+
+		/* Creating a Default model to Load the turtle file */
+		model = ModelFactory.createDefaultModel();
+
+		/* Reading the turtle file */
+		model.read(new ByteArrayInputStream(file.getBytes()), null, "TTL");
+
+		/* Reading the datasetUri */
+		datasetUri = new String(dataSet.getBytes(), StandardCharsets.UTF_8);
+
+		/* If existing measurements should be removed */
+		civet.setRemoveMeasurements(true);
+
+		/* If it should be logged, if a measurement could not be computed */
+		civet.setLogNotComputed(true);
+
+		/* Compute model and datasetUri */
+		LanguageErrorMetric metric = new LanguageErrorMetric();
+		return metric.compute(model, datasetUri);
+	}
+
 }

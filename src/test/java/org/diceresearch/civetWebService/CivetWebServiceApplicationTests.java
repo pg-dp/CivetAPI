@@ -31,7 +31,8 @@ class CivetWebServiceApplicationTests {
 
     @Test
     public void testTimelinessMetric() throws Exception {
-        dataset = "http://projekt-opal.de/dataset/https___europeandataportal_eu_set_data_de6f2062_c0f9_4bb3_858d_d722250b322b";
+        dataset = "http://projekt-opal.de/dataset/https___europeandataportal_eu_set_data_de6f2062_c0f9_4bb3_858d" +
+                "_d722250b322b";
         path = Paths.get("src/test/resources/TestTimelinessMetric.ttl");
 
         try {
@@ -39,13 +40,15 @@ class CivetWebServiceApplicationTests {
         } catch (final IOException e) {
 
         }
-        file = new MockMultipartFile("TestTimelinessMetric.ttl", "TestTimelinessMetric.ttl", contentType, content);
+        file = new MockMultipartFile("TestTimelinessMetric.ttl", "TestTimelinessMetric.ttl",
+                contentType, content);
         Assert.assertEquals(3, objContoller.uploadFileTimelinessMetric(file, dataset));
     }
 
     @Test
     public void testUpdateRateMetric() throws Exception {
-        dataset = "http://projekt-opal.de/dataset/https___europeandataportal_eu_set_data_de68f4fc_2886_4775_9537_2bf21d81dff7";
+        dataset = "http://projekt-opal.de/dataset/https___europeandataportal_eu_set_data_de68f4fc_2886_4775_" +
+                "9537_2bf21d81dff7";
         path = Paths.get("src/test/resources/TestUpdaterateMetric.ttl");
 
         try {
@@ -53,14 +56,16 @@ class CivetWebServiceApplicationTests {
         } catch (final IOException e) {
         }
 
-        file = new MockMultipartFile("TestUpdaterateMetric.ttl", "TestUpdaterateMetric.ttl", contentType, content);
+        file = new MockMultipartFile("TestUpdaterateMetric.ttl", "TestUpdaterateMetric.ttl",
+                contentType, content);
         Assert.assertEquals(3, objContoller.uploadFileUpdateRateMetric(file, dataset));
 
     }
 
     @Test
     public void testVersionMetric() throws Exception {
-        dataset = "http://projekt-opal.de/dataset/https___europeandataportal_eu_set_data_f368cc99_e791_47b4_ba4f_5c148140d00e";
+        dataset = "http://projekt-opal.de/dataset/https___europeandataportal_eu_set_data_f368cc99_e791_47b4_" +
+                "ba4f_5c148140d00e";
         path = Paths.get("src/test/resources/TestVersioningMetric.ttl");
 
         try {
@@ -68,13 +73,15 @@ class CivetWebServiceApplicationTests {
         } catch (final IOException e) {
 
         }
-        file = new MockMultipartFile("TestVersioningMetric.ttl", "TestVersioningMetric.ttl", contentType, content);
+        file = new MockMultipartFile("TestVersioningMetric.ttl", "TestVersioningMetric.ttl",
+                contentType, content);
         Assert.assertEquals(5, objContoller.uploadFileVersionMetric(file, dataset));
     }
 
     @Test
     public void testAccessibilityMetric() throws Exception {
-        dataset = "http://projekt-opal.de/dataset/https___europeandataportal_eu_set_data_bp_2015_ville_de_rennes_budget_principal_par_sous_fonctions";
+        dataset = "http://projekt-opal.de/dataset/https___europeandataportal_eu_set_data_bp_2015_ville_de_rennes" +
+                "_budget_principal_par_sous_fonctions";
         path = Paths.get("src/test/resources/TestAccessibilityMetric.ttl");
 
         try {
@@ -82,7 +89,8 @@ class CivetWebServiceApplicationTests {
         } catch (final IOException e) {
 
         }
-        file = new MockMultipartFile("TestAccessibilityMetric.ttl", "TestAccessibilityMetric.ttl", contentType, content);
+        file = new MockMultipartFile("TestAccessibilityMetric.ttl", "TestAccessibilityMetric.ttl",
+                contentType, content);
         Assert.assertEquals(0, objContoller.uploadFileAccessibilityMetric(file, dataset));
     }
 
@@ -96,13 +104,15 @@ class CivetWebServiceApplicationTests {
         } catch (final IOException e) {
 
         }
-        file = new MockMultipartFile("TestDataProviderIdentityMetric.ttl", "TestDataProviderIdentityMetric.ttl", contentType, content);
+        file = new MockMultipartFile("TestDataProviderIdentityMetric.ttl",
+                "TestDataProviderIdentityMetric.ttl", contentType, content);
         Assert.assertEquals(3, objContoller.uploadFileProviderIdentity(file, dataset));
     }
 
     @Test
     public void testReadabilityMetric() throws Exception {
-        dataset = "http://projekt-opal.de/dataset/https___europeandataportal_eu_set_data_designated_neighbourhood_plan_areas49";
+        dataset = "http://projekt-opal.de/dataset/https___europeandataportal_eu_set_data_designated_" +
+                "neighbourhood_plan_areas49";
         path = Paths.get("src/test/resources/TestReadabilityMetric.ttl");
 
         try {
@@ -110,13 +120,15 @@ class CivetWebServiceApplicationTests {
         } catch (final IOException e) {
 
         }
-        file = new MockMultipartFile("TestReadabilityMetric.ttl", "TestReadabilityMetric.ttl", contentType, content);
+        file = new MockMultipartFile("TestReadabilityMetric.ttl", "TestReadabilityMetric.ttl",
+                contentType, content);
         Assert.assertEquals(3, objContoller.uploadFileReadabilityMetric(file, dataset));
     }
 
     @Test
     public void testContactClassicMetric() throws Exception {
-        dataset = "http://projekt-opal.de/dataset/https___europeandataportal_eu_set_data_btopoctettehhn_pa3ttopedntejin_c_biodxet_b_obwnha_bopobo";
+        dataset = "http://projekt-opal.de/dataset/https___europeandataportal_eu_set_data_btopoctettehhn_" +
+                "pa3ttopedntejin_c_biodxet_b_obwnha_bopobo";
         path = Paths.get("src/test/resources/TestContactClassicInformationMetric.ttl");
 
         try {
@@ -124,13 +136,15 @@ class CivetWebServiceApplicationTests {
         } catch (final IOException e) {
 
         }
-        file = new MockMultipartFile("TestContactClassicInformationMetric.ttl", "TestContactClassicInformationMetric.ttl", contentType, content);
+        file = new MockMultipartFile("TestContactClassicInformationMetric.ttl",
+                "TestContactClassicInformationMetric.ttl", contentType, content);
         Assert.assertEquals(2, objContoller.uploadFileContactClassicMetric(file, dataset));
     }
 
     @Test
     public void testFileContactEmailMetric() throws Exception {
-        dataset = "http://projekt-opal.de/dataset/https___europeandataportal_eu_set_data_pr_aspro_00001_20170127_120846_ds10";
+        dataset = "http://projekt-opal.de/dataset/https___europeandataportal_eu_set_data_pr_aspro_00001_" +
+                "20170127_120846_ds10";
         path = Paths.get("src/test/resources/TestContactEmailsMetric.ttl");
 
         try {
@@ -138,13 +152,15 @@ class CivetWebServiceApplicationTests {
         } catch (final IOException e) {
 
         }
-        file = new MockMultipartFile("TestContactEmailsMetric.ttl", "TestContactEmailsMetric.ttl", contentType, content);
+        file = new MockMultipartFile("TestContactEmailsMetric.ttl", "TestContactEmailsMetric.ttl",
+                contentType, content);
         Assert.assertEquals(2, objContoller.uploadFileContactEmailMetric(file, dataset));
     }
 
     @Test
     public void testContactURLMetric() throws Exception {
-        dataset = "http://projekt-opal.de/dataset/https___europeandataportal_eu_set_data_btopoctettehhn_pa3ttopedntejin_c_biodxet_b_obwnha_bopobo";
+        dataset = "http://projekt-opal.de/dataset/https___europeandataportal_eu_set_data_btopoctettehhn" +
+                "_pa3ttopedntejin_c_biodxet_b_obwnha_bopobo";
         path = Paths.get("src/test/resources/TestContactURL.ttl");
 
         try {
@@ -152,14 +168,16 @@ class CivetWebServiceApplicationTests {
         } catch (final IOException e) {
 
         }
-        file = new MockMultipartFile("TestContactURL.ttl", "TestContactURL.ttl", contentType, content);
+        file = new MockMultipartFile("TestContactURL.ttl", "TestContactURL.ttl", contentType,
+                content);
         Assert.assertEquals(0, objContoller.uploadFileContactURLMetric(file, dataset));
     }
 
 
     @Test
     public void testDataFormatMetric() throws Exception {
-        dataset = "http://projekt-opal.de/dataset/https___europeandataportal_eu_set_data_birth_registrations_by_month_since_january_2009_to_june_2011";
+        dataset = "http://projekt-opal.de/dataset/https___europeandataportal_eu_set_data_birth_registrations_" +
+                "by_month_since_january_2009_to_june_2011";
         path = Paths.get("src/test/resources/TestDataFormatMetric.ttl");
 
         try {
@@ -167,13 +185,15 @@ class CivetWebServiceApplicationTests {
         } catch (final IOException e) {
 
         }
-        file = new MockMultipartFile("TestDataFormatMetric.ttl", "TestDataFormatMetric.ttl", contentType, content);
+        file = new MockMultipartFile("TestDataFormatMetric.ttl", "TestDataFormatMetric.ttl",
+                contentType, content);
         Assert.assertEquals(3, objContoller.uploadFileDataFormatMetric(file, dataset));
     }
 
     @Test
     public void testDateFormat() throws Exception {
-        dataset = "http://projekt-opal.de/dataset/_mcloudde_vieljhrlicherasterdesmittlerenvegetationsbeginnsindeutschland";
+        dataset = "http://projekt-opal.de/dataset/_mcloudde_vieljhrlicheraster" +
+                "desmittlerenvegetationsbeginnsindeutschland";
         path = Paths.get("src/test/resources/TestDateFormatMetric.ttl");
 
         try {
@@ -182,13 +202,15 @@ class CivetWebServiceApplicationTests {
 
         }
 
-        file = new MockMultipartFile("TestDateFormatMetric.ttl", "TestDateFormatMetric.ttl", contentType, content);
+        file = new MockMultipartFile("TestDateFormatMetric.ttl", "TestDateFormatMetric.ttl",
+                contentType, content);
         Assert.assertEquals(5, objContoller.uploadFileDateFormat(file, dataset));
     }
 
     @Test
     public void testDescription() throws Exception {
-        dataset = "http://projekt-opal.de/dataset/_mcloudde_vieljhrlicherasterdesmittlerenvegetationsbeginnsindeutschland";
+        dataset = "http://projekt-opal.de/dataset/_mcloudde_vieljhrlicherasterdesmittlerenvegetationsbeginns" +
+                "indeutschland";
         path = Paths.get("src/test/resources/TestDescriptionMetric.ttl");
 
         try {
@@ -197,13 +219,15 @@ class CivetWebServiceApplicationTests {
 
         }
 
-        file = new MockMultipartFile("TestDescriptionMetric.ttl", "TestDescriptionMetric.ttl", contentType, content);
+        file = new MockMultipartFile("TestDescriptionMetric.ttl", "TestDescriptionMetric.ttl",
+                contentType, content);
         Assert.assertEquals(1, objContoller.uploadFileDescription(file, dataset));
     }
 
     @Test
     public void testLicensesMetric() throws Exception {
-        dataset = "http://projekt-opal.de/dataset/https___europeandataportal_eu_set_data_brownfield_land_register_blackburn_with_darwen";
+        dataset = "http://projekt-opal.de/dataset/https___europeandataportal_eu_set_data_brownfield" +
+                "_land_register_blackburn_with_darwen";
         path = Paths.get("src/test/resources/TestDataLicensesMetric.ttl");
 
         try {
@@ -212,7 +236,26 @@ class CivetWebServiceApplicationTests {
 
         }
 
-        file = new MockMultipartFile("TestDataLicensesMetric.ttl", "TestDataLicensesMetric.ttl", contentType, content);
+        file = new MockMultipartFile("TestDataLicensesMetric.ttl",
+                "TestDataLicensesMetric.ttl", contentType, content);
         Assert.assertEquals(5, objContoller.uploadFileLicensesMetric(file, dataset));
     }
+
+    @Test
+    public void testLanguageErrorMetric() throws Exception {
+        dataset = "http://projekt-opal.de/dataset/https___" +
+                "europeandataportal_eu_set_data_14f6d44d_c5d4_5225_96d9_f42a0879c8f1";
+        path = Paths.get("src/test/resources/TestDataLanguageErrorMetric.ttl");
+
+        try {
+            content = Files.readAllBytes(path);
+        } catch (final IOException e) {
+
+        }
+
+        file = new MockMultipartFile("TestDataLanguageErrorMetric.ttl",
+                "TestDataLanguageErrorMetric.ttl", contentType, content);
+        Assert.assertEquals(3, objContoller.uploadFileLanguageErrorMetric(file, dataset));
+    }
+
 }
