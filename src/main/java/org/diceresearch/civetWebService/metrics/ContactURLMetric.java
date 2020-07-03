@@ -10,8 +10,6 @@ import org.apache.jena.rdf.model.SimpleSelector;
 import org.apache.jena.rdf.model.Statement;
 import org.apache.jena.rdf.model.StmtIterator;
 import org.apache.jena.vocabulary.DCAT;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.dice_research.opal.civet.Metric;
 import org.dice_research.opal.common.vocabulary.Opal;
 
@@ -30,7 +28,6 @@ import org.dice_research.opal.common.vocabulary.Opal;
 
 public class ContactURLMetric implements Metric {
 
-    private static final Logger LOGGER = LogManager.getLogger();
     private static final String DESCRIPTION = "Computes the quality of dataset as per contactability metric."
             + "Two kinds of ratings are awarded to the dataset which are following: "
             + "Stars 5: Contact URL is in DCAT.landingPage or DCAT.accessURL."
@@ -43,7 +40,6 @@ public class ContactURLMetric implements Metric {
         NodeIterator distributionObjectsIterator = model.listObjectsOfProperty(dataset,DCAT.distribution);
         StmtIterator stmtItr = model.listStatements(new SimpleSelector(dataset,DCAT.landingPage,(RDFNode) null));
 
-        boolean contactUrl=false;
         HashMap<RDFNode,  Integer> URLRatingMap = new HashMap<RDFNode,Integer>();
         int urlCount = 0;
 
