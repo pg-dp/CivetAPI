@@ -16,8 +16,17 @@ This is a spring-boot Maven app. So download this repository and in the root fol
 - https://github.com/pg-dp/CivetAPI/tree/all-metrics-api/src/test/resources
 
 ### Example queries:
-- https://localhost:8080/uploadFile/DateFormat,
-- https://localhost:8080/uploadFile/Description,
-- https://localhost:8080/uploadFile/ProviderIdentity,
-- https://localhost:8080/uploadFile/Licenses,
-- https://localhost:8080/uploadFile/DataFormat.
+- localhost:8080/uploadFile/DateFormat,
+- localhost:8080/uploadFile/Description,
+- localhost:8080/uploadFile/ProviderIdentity,
+- localhost:8080/uploadFile/Licenses,
+- localhost:8080/uploadFile/DataFormat,
+- localhost:8080/uploadFile/ContactURLMetric,
+- localhost:8080/uploadFile/ContactEmailMetric,
+- localhost:8080/uploadFile/ContactClassicMetric,
+- localhost:8080/uploadFile/AccessibilityMetric,
+- localhost:8080/uploadFile/VersionMetric,
+- localhost:8080/uploadFile/UpdateRateMetric,
+- localhost:8080/uploadFile/ReadabilityMetric,
+- localhost:8080/uploadFile/TimelinessMetric.
+
