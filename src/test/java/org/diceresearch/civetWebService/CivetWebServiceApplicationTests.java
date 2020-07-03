@@ -11,6 +11,15 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
+/**
+ * This  class implements test cases for the spring boot rest controller for
+ * reading RDF model and datasetUri sent from postman and the returned
+ * result will be evaluated metric star. Testing is done by using JUnit
+ * framework and checking expected value against actual value.
+ *
+ * @author Amit Kumar
+ */
+
 @SpringBootTest
 class CivetWebServiceApplicationTests {
     MetricsController objContoller = new MetricsController();
@@ -174,7 +183,7 @@ class CivetWebServiceApplicationTests {
         }
 
         file = new MockMultipartFile("TestDateFormatMetric.ttl", "TestDateFormatMetric.ttl", contentType, content);
-        Assert.assertEquals(4, objContoller.uploadFileDateFormat(file, dataset));
+        Assert.assertEquals(5, objContoller.uploadFileDateFormat(file, dataset));
     }
 
     @Test
