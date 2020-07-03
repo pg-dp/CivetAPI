@@ -1,10 +1,24 @@
-package org.diceresearch.civetWebService;
+package org.diceresearch.civetWebService.metricsController;
 
 import java.io.ByteArrayInputStream;
 import java.nio.charset.StandardCharsets;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
 import org.dice_research.opal.civet.Civet;
+import org.diceresearch.civetWebService.AccessibilityMetric;
+import org.diceresearch.civetWebService.AvailabilityOfLicensesMetric;
+import org.diceresearch.civetWebService.ContactClassicMetric;
+import org.diceresearch.civetWebService.ContactEmailMetric;
+import org.diceresearch.civetWebService.ContactURLMetric;
+import org.diceresearch.civetWebService.DataFormatMetric;
+import org.diceresearch.civetWebService.DateFormatMetric;
+import org.diceresearch.civetWebService.DescriptionMetric;
+import org.diceresearch.civetWebService.LanguageErrorMetric;
+import org.diceresearch.civetWebService.ProviderIdentityMetric;
+import org.diceresearch.civetWebService.ReadabilityMetric;
+import org.diceresearch.civetWebService.TimelinessMetric;
+import org.diceresearch.civetWebService.UpdateRateMetric;
+import org.diceresearch.civetWebService.VersionMetric;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;

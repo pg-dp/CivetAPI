@@ -1,5 +1,6 @@
 package org.diceresearch.civetWebService;
 
+import org.diceresearch.civetWebService.metricsController.MetricsController;
 import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
