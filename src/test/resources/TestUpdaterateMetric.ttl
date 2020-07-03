@@ -1,0 +1,192 @@
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix dcat:  <http://www.w3.org/ns/dcat#> .
+
+<http://projekt-opal.de/dataset/https___europeandataportal_eu_set_data_de68f4fc_2886_4775_9537_2bf21d81dff7>
+        a                       dcat:Dataset ;
+        dct:accrualPeriodicity  <http://inspire.ec.europa.eu/metadata-codelist/MaintenanceFrequencyCode/QUARTERLY> ;
+        dct:conformsTo          [ dct:type  <http://inspire.ec.europa.eu/metadata-codelist/SpatialReferenceSystem> ;
+                                  <http://www.w3.org/2002/07/owl#versionInfo>
+                                          "7.4"@de ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme>
+                                          []  ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel>
+                                          "ETRS89 / UTM zone 32N (EPSG:25832)"@de
+                                ] ;
+        dct:conformsTo          [ dct:type  <http://inspire.ec.europa.eu/metadata-codelist/SpatialReferenceSystem> ;
+                                  <http://www.w3.org/2002/07/owl#versionInfo>
+                                          "7.4"@de ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme>
+                                          []  ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel>
+                                          "ETRS89 / UTM zone 32N (EPSG:25832)"@de
+                                ] ;
+        dct:description         "Die Bebauungspläne der Stadt Papenburg mit den Ortsteilen Papenburg, Bokel, Tunxdorf, Nenndorf, Aschendorf und Herbrum.\n\nDas Datum der Rechtskraft ist heute nicht mehr einwandfrei nachweisbar. Der Plan ist jedoch trotzdem rechtsgültig."@de ;
+        dct:identifier          "https://registry.gdi-de.org/id/de.ni/20cf9e5f-8603-4b11-ba62-0f11a74f84ca"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
+        dct:isPartOf            [ dct:identifier  "a4aefd0a-ce5c-4748-8f29-a9b46813950d" ] ;
+        dct:isPartOf            [ dct:identifier  "a4aefd0a-ce5c-4748-8f29-a9b46813950d" ] ;
+        dct:issued              "1955-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        dct:language            <http://publications.europa.eu/resource/authority/language/GER> ;
+        dct:provenance          [ a       dct:ProvenanceStatement ;
+                                  <http://www.w3.org/2000/01/rdf-schema#label>
+                                          "Die Daten wurden teilweise aus analogen B-Plänen digitalisiert."@de
+                                ] ;
+        dct:provenance          [ a       dct:ProvenanceStatement ;
+                                  <http://www.w3.org/2000/01/rdf-schema#label>
+                                          "Die Daten wurden teilweise aus analogen B-Plänen digitalisiert."@de
+                                ] ;
+        dct:spatial             [ a       dct:Location ;
+                                  <http://www.w3.org/ns/locn#geometry>
+                                          "<gml:Envelope srsName=\"http://www.opengis.net/def/EPSG/0/4326\"><gml:lowerCorner>52.99798087585 7.2870334818515</gml:lowerCorner><gml:upperCorner>53.122675683305 7.5276340845528</gml:upperCorner></gml:Envelope>"^^<http://www.opengis.net/ont/geosparql#gmlLiteral> , "POLYGON((7.2870334818515 53.122675683305,7.5276340845528 53.122675683305,7.5276340845528 52.99798087585,7.2870334818515 52.99798087585,7.2870334818515 53.122675683305))"^^<http://www.openlinksw.com/schemas/virtrdf#Geometry>
+                                ] ;
+        dct:spatial             [ a       dct:Location ;
+                                  <http://www.w3.org/ns/locn#geometry>
+                                          "<gml:Envelope srsName=\"http://www.opengis.net/def/EPSG/0/4326\"><gml:lowerCorner>52.99798087585 7.2870334818515</gml:lowerCorner><gml:upperCorner>53.122675683305 7.5276340845528</gml:upperCorner></gml:Envelope>"^^<http://www.opengis.net/ont/geosparql#gmlLiteral> , "POLYGON((7.2870334818515 53.122675683305,7.5276340845528 53.122675683305,7.5276340845528 52.99798087585,7.2870334818515 52.99798087585,7.2870334818515 53.122675683305))"^^<http://www.openlinksw.com/schemas/virtrdf#Geometry>
+                                ] ;
+        dct:spatial             [ a       dct:Location ;
+                                  <http://www.w3.org/2000/01/rdf-schema#seeAlso>
+                                          [] 
+                                ] ;
+        dct:spatial             [ a       dct:Location ;
+                                  <http://www.w3.org/2000/01/rdf-schema#seeAlso>
+                                          [] 
+                                ] ;
+        dct:subject             <http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/planningCadastre> ;
+        dct:temporal            [ a                              dct:PeriodOfTime ;
+                                  <http://schema.org/endDate>    "1955-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+                                  <http://schema.org/startDate>  "1955-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+                                ] ;
+        dct:temporal            [ a                              dct:PeriodOfTime ;
+                                  <http://schema.org/endDate>    "1955-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+                                  <http://schema.org/startDate>  "1955-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+                                ] ;
+        dct:title               "Bebauungsplan Nr. 2 Bokel \"Kerstens Tannen\" Stadt Papenburg"@de ;
+        dct:type                <http://inspire.ec.europa.eu/metadata-codelist/ResourceType/dataset> ;
+        dcat:keyword            "inspireidentifiziert"@de , "BPL"@de , "Bebauungspläne"@de , "B-Plan"@de ;
+        dcat:landingPage        <http://bplan.papenburg.de/2BOK/2BOK_satz.zip> ;
+        dcat:theme              <http://eurovoc.europa.eu/100156> , <http://publications.europa.eu/resource/authority/data-theme/AGRI> , <http://inspire.ec.europa.eu/theme/lu> , <http://eurovoc.europa.eu/4630> ;
+        dcat:theme              [ a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme>
+                                          []  ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel>
+                                          "Stadtplanung"
+                                ] ;
+        dcat:theme              [ a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme>
+                                          []  ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel>
+                                          "Bebauungsplan"
+                                ] ;
+        dcat:theme              [ a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme>
+                                          []  ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel>
+                                          "Bauleitplanung"
+                                ] ;
+        dcat:theme              [ a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme>
+                                          []  ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel>
+                                          "Stadtplanung"
+                                ] ;
+        dcat:theme              [ a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme>
+                                          []  ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel>
+                                          "Bauleitplanung"
+                                ] ;
+        dcat:theme              [ a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme>
+                                          []  ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel>
+                                          "Stadtentwicklung"
+                                ] ;
+        dcat:theme              [ a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme>
+                                          []  ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel>
+                                          "Bebauungsplan"
+                                ] ;
+        dcat:theme              [ a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme>
+                                          []  ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel>
+                                          "Stadtentwicklung"
+                                ] ;
+        <http://www.w3.org/ns/dqv#hasQualityMeasurement>
+                <http://projekt-opal.de/measurement2076725> , <http://projekt-opal.de/measurement2076723> , <http://projekt-opal.de/measurement2076722> , <http://projekt-opal.de/measurement2076720> , <http://projekt-opal.de/measurement2076719> , <http://projekt-opal.de/measurement2076724> , <http://projekt-opal.de/measurement2076721> ;
+        <http://www.w3.org/ns/prov#qualifiedAttribution>
+                [ a         <http://www.w3.org/ns/prov#Attribution> ;
+                  dct:type  <http://inspire.ec.europa.eu/metadata-codelist/ResponsiblePartyRole/author> ;
+                  <http://www.w3.org/ns/prov#agent>
+                          [] 
+                ] ;
+        <http://www.w3.org/ns/prov#qualifiedAttribution>
+                [ a         <http://www.w3.org/ns/prov#Attribution> ;
+                  dct:type  <http://inspire.ec.europa.eu/metadata-codelist/ResponsiblePartyRole/author> ;
+                  <http://www.w3.org/ns/prov#agent>
+                          [] 
+                ] ;
+        <http://www.w3.org/ns/prov#wasUsedBy>
+                [ a       <http://www.w3.org/ns/prov#Activity> ;
+                  <http://www.w3.org/ns/prov#generated>
+                          []  ;
+                  <http://www.w3.org/ns/prov#qualifiedAssociation>
+                          [] 
+                ] ;
+        <http://www.w3.org/ns/prov#wasUsedBy>
+                [ a       <http://www.w3.org/ns/prov#Activity> ;
+                  <http://www.w3.org/ns/prov#generated>
+                          []  ;
+                  <http://www.w3.org/ns/prov#qualifiedAssociation>
+                          [] 
+                ] ;
+        <http://xmlns.com/foaf/0.1/isPrimaryTopicOf>
+                [ a                  dcat:CatalogRecord ;
+                  dct:identifier     "de68f4fc-2886-4775-9537-2bf21d81dff7" ;
+                  dct:language       <http://publications.europa.eu/resource/authority/language/GER> ;
+                  dct:source         []  ;
+                  <http://www.w3.org/2011/content#characterEncoding>
+                          "UTF-8" ;
+                  dcat:contactPoint  [] 
+                ] ;
+        <http://xmlns.com/foaf/0.1/isPrimaryTopicOf>
+                [ a                  dcat:CatalogRecord ;
+                  dct:identifier     "de68f4fc-2886-4775-9537-2bf21d81dff7" ;
+                  dct:language       <http://publications.europa.eu/resource/authority/language/GER> ;
+                  dct:source         []  ;
+                  <http://www.w3.org/2011/content#characterEncoding>
+                          "UTF-8" ;
+                  dcat:contactPoint  [] 
+                ] .
+
+<http://projekt-opal.de/distribution/https___europeandataportal_eu_set_distribution_1cb71435_3eea_45d6_b14f_635d184c84c6>
+        a                dcat:Distribution ;
+        dct:description  "See __table 3__ - number of deaths by area of usual residence, standardised mortality ratios (SMRs) and aged-standardised mortality rates (ASMRs)"@en ;
+        dct:format       <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+        dct:license      <http://reference.data.gov.uk/id/open-government-licence> ;
+        dct:title        "Deaths at local authority level (annual figures)"@en ;
+        dcat:accessURL   <https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/datasets/deathregistrationssummarytablesenglandandwalesreferencetables> .
+
+<http://projekt-opal.de/measurement2077261>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/KnownLicense> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<https://www.data.gouv.fr/fr/datasets/defibrillateurs-9/>
+        a       <http://xmlns.com/foaf/0.1/Document> .
+
+<http://projekt-opal.de/measurement2079550>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/ContactUrl> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement2077855>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/Description> ;
+        <http://www.w3.org/ns/dqv#value>
+                "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
