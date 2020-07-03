@@ -1,4 +1,4 @@
-package org.diceresearch.civetWebService;
+package org.diceresearch.civetWebService.metrics;
 
 import java.util.HashMap;
 import java.util.regex.Matcher;
