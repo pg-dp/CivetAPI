@@ -11,8 +11,9 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
 /**
- * This is a Spring-Boot Maven Application Rest Controller for reading RDF model and datasetUri
- * sent from postman and the returned result will be evaluated metric star.
+ * This is a Spring-Boot Maven Application Rest Controller for reading RDF model
+ * and datasetUri sent from postman and the returned result will be evaluated
+ * metric star.
  *
  * @author Aamir Mohammed
  *
@@ -20,24 +21,22 @@ import org.springframework.web.multipart.MultipartFile;
 
 @RestController
 public class MetricsController {
-	Model model;
-	String datasetUri;
-	Civet civet = new Civet();
 
 	@PostMapping("/uploadFile/DateFormat")
 	public int uploadFileDateFormat(@RequestParam("file") MultipartFile file, @RequestParam String dataSet)
 			throws Exception {
 
 		/* Creating a Default model to Load the turtle file */
-		model = ModelFactory.createDefaultModel();
+		Model model = ModelFactory.createDefaultModel();
 
 		/* Reading the turtle file */
 		model.read(new ByteArrayInputStream(file.getBytes()), null, "TTL");
 
 		/* Reading the datasetUri */
-		datasetUri = new String(dataSet.getBytes(), StandardCharsets.UTF_8);
+		String datasetUri = new String(dataSet.getBytes(), StandardCharsets.UTF_8);
 
 		/* If existing measurements should be removed */
+		Civet civet = new Civet();
 		civet.setRemoveMeasurements(true);
 
 		/* If it should be logged, if a measurement could not be computed */
@@ -53,15 +52,16 @@ public class MetricsController {
 			throws Exception {
 
 		/* Creating a Default model to Load the turtle file */
-		model = ModelFactory.createDefaultModel();
+		Model model = ModelFactory.createDefaultModel();
 
 		/* Reading the turtle file */
 		model.read(new ByteArrayInputStream(file.getBytes()), null, "TTL");
 
 		/* Reading the datasetUri */
-		datasetUri = new String(dataSet.getBytes(), StandardCharsets.UTF_8);
+		String datasetUri = new String(dataSet.getBytes(), StandardCharsets.UTF_8);
 
 		/* If existing measurements should be removed */
+		Civet civet = new Civet();
 		civet.setRemoveMeasurements(true);
 
 		/* If it should be logged, if a measurement could not be computed */
@@ -77,15 +77,16 @@ public class MetricsController {
 			throws Exception {
 
 		/* Creating a Default model to Load the turtle file */
-		model = ModelFactory.createDefaultModel();
+		Model model = ModelFactory.createDefaultModel();
 
 		/* Reading the turtle file */
 		model.read(new ByteArrayInputStream(file.getBytes()), null, "TTL");
 
 		/* Reading the datasetUri */
-		datasetUri = new String(dataSet.getBytes(), StandardCharsets.UTF_8);
+		String datasetUri = new String(dataSet.getBytes(), StandardCharsets.UTF_8);
 
 		/* If existing measurements should be removed */
+		Civet civet = new Civet();
 		civet.setRemoveMeasurements(true);
 
 		/* If it should be logged, if a measurement could not be computed */
@@ -101,15 +102,16 @@ public class MetricsController {
 			throws Exception {
 
 		/* Creating a Default model to Load the turtle file */
-		model = ModelFactory.createDefaultModel();
+		Model model = ModelFactory.createDefaultModel();
 
 		/* Reading the turtle file */
 		model.read(new ByteArrayInputStream(file.getBytes()), null, "TTL");
 
 		/* Reading the datasetUri */
-		datasetUri = new String(dataSet.getBytes(), StandardCharsets.UTF_8);
+		String datasetUri = new String(dataSet.getBytes(), StandardCharsets.UTF_8);
 
 		/* If existing measurements should be removed */
+		Civet civet = new Civet();
 		civet.setRemoveMeasurements(true);
 
 		/* If it should be logged, if a measurement could not be computed */
@@ -125,15 +127,16 @@ public class MetricsController {
 			throws Exception {
 
 		/* Creating a Default model to Load the turtle file */
-		model = ModelFactory.createDefaultModel();
+		Model model = ModelFactory.createDefaultModel();
 
 		/* Reading the turtle file */
 		model.read(new ByteArrayInputStream(file.getBytes()), null, "TTL");
 
 		/* Reading the datasetUri */
-		datasetUri = new String(dataSet.getBytes(), StandardCharsets.UTF_8);
+		String datasetUri = new String(dataSet.getBytes(), StandardCharsets.UTF_8);
 
 		/* If existing measurements should be removed */
+		Civet civet = new Civet();
 		civet.setRemoveMeasurements(true);
 
 		/* If it should be logged, if a measurement could not be computed */
@@ -149,15 +152,16 @@ public class MetricsController {
 			throws Exception {
 
 		/* Creating a Default model to Load the turtle file */
-		model = ModelFactory.createDefaultModel();
+		Model model = ModelFactory.createDefaultModel();
 
 		/* Reading the turtle file */
 		model.read(new ByteArrayInputStream(file.getBytes()), null, "TTL");
 
 		/* Reading the datasetUri */
-		datasetUri = new String(dataSet.getBytes(), StandardCharsets.UTF_8);
+		String datasetUri = new String(dataSet.getBytes(), StandardCharsets.UTF_8);
 
 		/* If existing measurements should be removed */
+		Civet civet = new Civet();
 		civet.setRemoveMeasurements(true);
 
 		/* If it should be logged, if a measurement could not be computed */
@@ -173,15 +177,16 @@ public class MetricsController {
 			throws Exception {
 
 		/* Creating a Default model to Load the turtle file */
-		model = ModelFactory.createDefaultModel();
+		Model model = ModelFactory.createDefaultModel();
 
 		/* Reading the turtle file */
 		model.read(new ByteArrayInputStream(file.getBytes()), null, "TTL");
 
 		/* Reading the datasetUri */
-		datasetUri = new String(dataSet.getBytes(), StandardCharsets.UTF_8);
+		String datasetUri = new String(dataSet.getBytes(), StandardCharsets.UTF_8);
 
 		/* If existing measurements should be removed */
+		Civet civet = new Civet();
 		civet.setRemoveMeasurements(true);
 
 		/* If it should be logged, if a measurement could not be computed */
@@ -197,15 +202,16 @@ public class MetricsController {
 			throws Exception {
 
 		/* Creating a Default model to Load the turtle file */
-		model = ModelFactory.createDefaultModel();
+		Model model = ModelFactory.createDefaultModel();
 
 		/* Reading the turtle file */
 		model.read(new ByteArrayInputStream(file.getBytes()), null, "TTL");
 
 		/* Reading the datasetUri */
-		datasetUri = new String(dataSet.getBytes(), StandardCharsets.UTF_8);
+		String datasetUri = new String(dataSet.getBytes(), StandardCharsets.UTF_8);
 
 		/* If existing measurements should be removed */
+		Civet civet = new Civet();
 		civet.setRemoveMeasurements(true);
 
 		/* If it should be logged, if a measurement could not be computed */
@@ -221,15 +227,16 @@ public class MetricsController {
 			throws Exception {
 
 		/* Creating a Default model to Load the turtle file */
-		model = ModelFactory.createDefaultModel();
+		Model model = ModelFactory.createDefaultModel();
 
 		/* Reading the turtle file */
 		model.read(new ByteArrayInputStream(file.getBytes()), null, "TTL");
 
 		/* Reading the datasetUri */
-		datasetUri = new String(dataSet.getBytes(), StandardCharsets.UTF_8);
+		String datasetUri = new String(dataSet.getBytes(), StandardCharsets.UTF_8);
 
 		/* If existing measurements should be removed */
+		Civet civet = new Civet();
 		civet.setRemoveMeasurements(true);
 
 		/* If it should be logged, if a measurement could not be computed */
@@ -245,15 +252,16 @@ public class MetricsController {
 			throws Exception {
 
 		/* Creating a Default model to Load the turtle file */
-		model = ModelFactory.createDefaultModel();
+		Model model = ModelFactory.createDefaultModel();
 
 		/* Reading the turtle file */
 		model.read(new ByteArrayInputStream(file.getBytes()), null, "TTL");
 
 		/* Reading the datasetUri */
-		datasetUri = new String(dataSet.getBytes(), StandardCharsets.UTF_8);
+		String datasetUri = new String(dataSet.getBytes(), StandardCharsets.UTF_8);
 
 		/* If existing measurements should be removed */
+		Civet civet = new Civet();
 		civet.setRemoveMeasurements(true);
 
 		/* If it should be logged, if a measurement could not be computed */
@@ -264,21 +272,21 @@ public class MetricsController {
 		return metric.compute(model, datasetUri);
 	}
 
-
 	@PostMapping("/uploadFile/ContactClassicMetric")
 	public int uploadFileContactClassicMetric(@RequestParam("file") MultipartFile file, @RequestParam String dataSet)
 			throws Exception {
 
 		/* Creating a Default model to Load the turtle file */
-		model = ModelFactory.createDefaultModel();
+		Model model = ModelFactory.createDefaultModel();
 
 		/* Reading the turtle file */
 		model.read(new ByteArrayInputStream(file.getBytes()), null, "TTL");
 
 		/* Reading the datasetUri */
-		datasetUri = new String(dataSet.getBytes(), StandardCharsets.UTF_8);
+		String datasetUri = new String(dataSet.getBytes(), StandardCharsets.UTF_8);
 
 		/* If existing measurements should be removed */
+		Civet civet = new Civet();
 		civet.setRemoveMeasurements(true);
 
 		/* If it should be logged, if a measurement could not be computed */
@@ -294,15 +302,16 @@ public class MetricsController {
 			throws Exception {
 
 		/* Creating a Default model to Load the turtle file */
-		model = ModelFactory.createDefaultModel();
+		Model model = ModelFactory.createDefaultModel();
 
 		/* Reading the turtle file */
 		model.read(new ByteArrayInputStream(file.getBytes()), null, "TTL");
 
 		/* Reading the datasetUri */
-		datasetUri = new String(dataSet.getBytes(), StandardCharsets.UTF_8);
+		String datasetUri = new String(dataSet.getBytes(), StandardCharsets.UTF_8);
 
 		/* If existing measurements should be removed */
+		Civet civet = new Civet();
 		civet.setRemoveMeasurements(true);
 
 		/* If it should be logged, if a measurement could not be computed */
@@ -318,15 +327,16 @@ public class MetricsController {
 			throws Exception {
 
 		/* Creating a Default model to Load the turtle file */
-		model = ModelFactory.createDefaultModel();
+		Model model = ModelFactory.createDefaultModel();
 
 		/* Reading the turtle file */
 		model.read(new ByteArrayInputStream(file.getBytes()), null, "TTL");
 
 		/* Reading the datasetUri */
-		datasetUri = new String(dataSet.getBytes(), StandardCharsets.UTF_8);
+		String datasetUri = new String(dataSet.getBytes(), StandardCharsets.UTF_8);
 
 		/* If existing measurements should be removed */
+		Civet civet = new Civet();
 		civet.setRemoveMeasurements(true);
 
 		/* If it should be logged, if a measurement could not be computed */
@@ -342,15 +352,16 @@ public class MetricsController {
 			throws Exception {
 
 		/* Creating a Default model to Load the turtle file */
-		model = ModelFactory.createDefaultModel();
+		Model model = ModelFactory.createDefaultModel();
 
 		/* Reading the turtle file */
 		model.read(new ByteArrayInputStream(file.getBytes()), null, "TTL");
 
 		/* Reading the datasetUri */
-		datasetUri = new String(dataSet.getBytes(), StandardCharsets.UTF_8);
+		String datasetUri = new String(dataSet.getBytes(), StandardCharsets.UTF_8);
 
 		/* If existing measurements should be removed */
+		Civet civet = new Civet();
 		civet.setRemoveMeasurements(true);
 
 		/* If it should be logged, if a measurement could not be computed */
