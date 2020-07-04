@@ -119,4 +119,4 @@ public class DescriptionMetric implements Metric {
 		return Opal.OPAL_METRIC_CATEGORIZATION.getURI();
 	}
 
-}
+} 

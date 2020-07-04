@@ -6,7 +6,11 @@ import java.nio.charset.StandardCharsets;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
 import org.dice_research.opal.civet.Civet;
+import org.diceresearch.civetWebService.metrics.AccessibilityMetric;
 import org.diceresearch.civetWebService.metrics.AvailabilityOfLicensesMetric;
+import org.diceresearch.civetWebService.metrics.ContactClassicMetric;
+import org.diceresearch.civetWebService.metrics.ContactEmailMetric;
+import org.diceresearch.civetWebService.metrics.ContactURLMetric;
 import org.diceresearch.civetWebService.metrics.DataFormatMetric;
 import org.diceresearch.civetWebService.metrics.DateFormatMetric;
 import org.diceresearch.civetWebService.metrics.DescriptionMetric;
@@ -111,6 +115,54 @@ public class MetricsController {
 
 		/* Compute model and datasetUri */
 		DataFormatMetric metric = new DataFormatMetric();
+		return metric.compute((Model) result.get("model"), (String) result.get("datasetUri"));
+	}
+
+	@PostMapping("/uploadFile/ContactClassic")
+	public int uploadFileContactClassicMetric(@RequestParam("file") MultipartFile file, @RequestParam String dataSet)
+			throws Exception {
+
+		MetricsController controller = new MetricsController();
+		JSONObject result = controller.readModelFile(file, dataSet);
+
+		/* Compute model and datasetUri */
+		ContactClassicMetric metric = new ContactClassicMetric();
+		return metric.compute((Model) result.get("model"), (String) result.get("datasetUri"));
+	}
+
+	@PostMapping("/uploadFile/ContactEmail")
+	public int uploadFileContactEmailMetric(@RequestParam("file") MultipartFile file, @RequestParam String dataSet)
+			throws Exception {
+
+		MetricsController controller = new MetricsController();
+		JSONObject result = controller.readModelFile(file, dataSet);
+
+		/* Compute model and datasetUri */
+		ContactEmailMetric metric = new ContactEmailMetric();
+		return metric.compute((Model) result.get("model"), (String) result.get("datasetUri"));
+	}
+
+	@PostMapping("/uploadFile/ContactURL")
+	public int uploadFileContactURLMetric(@RequestParam("file") MultipartFile file, @RequestParam String dataSet)
+			throws Exception {
+
+		MetricsController controller = new MetricsController();
+		JSONObject result = controller.readModelFile(file, dataSet);
+
+		/* Compute model and datasetUri */
+		ContactURLMetric metric = new ContactURLMetric();
+		return metric.compute((Model) result.get("model"), (String) result.get("datasetUri"));
+	}
+
+	@PostMapping("/uploadFile/Accessibility")
+	public int uploadFileAccessibilityMetric(@RequestParam("file") MultipartFile file, @RequestParam String dataSet)
+			throws Exception {
+
+		MetricsController controller = new MetricsController();
+		JSONObject result = controller.readModelFile(file, dataSet);
+
+		/* Compute model and datasetUri */
+		AccessibilityMetric metric = new AccessibilityMetric();
 		return metric.compute((Model) result.get("model"), (String) result.get("datasetUri"));
 	}
 
