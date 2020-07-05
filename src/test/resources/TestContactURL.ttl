@@ -1,0 +1,168 @@
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix dcat:  <http://www.w3.org/ns/dcat#> .
+
+<http://projekt-opal.de/dataset/https___europeandataportal_eu_set_data_btopoctettehhn_pa3ttopedntejin_c_biodxet_b_obwnha_bopobo>
+        a                  dcat:Dataset ;
+        dct:description    "ВТОРОСТЕПЕННИ РАЗПОРЕДИТЕЛИ С БЮДЖЕТ"@bg ;
+        dct:publisher      [ a       <http://xmlns.com/foaf/0.1/Agent> ;
+                             <http://xmlns.com/foaf/0.1/name>
+                                     "Татяна Стоянова"
+                           ] ;
+        dct:publisher      [ a       <http://xmlns.com/foaf/0.1/Agent> ;
+                             <http://xmlns.com/foaf/0.1/name>
+                                     "Татяна Стоянова"
+                           ] ;
+        dct:publisher      [ a       <http://xmlns.com/foaf/0.1/Agent> ;
+                             <http://xmlns.com/foaf/0.1/name>
+                                     "Татяна Стоянова"
+                           ] ;
+        dct:title          "ВТОРОСТЕПЕННИ РАЗПОРЕДИТЕЛИ С БЮДЖЕТ В ОБЩИНА БОРОВО"@bg ;
+        dcat:contactPoint  [ dct:type  "http://www.w3.org/2006/vcard/ns#Kind"^^<http://www.w3.org/2004/02/skos/core#Concept> ;
+                             <http://xmlns.com/foaf/0.1/name>
+                                     "Татяна Стоянова"
+                           ] ;
+        dcat:contactPoint  [ dct:type  "http://www.w3.org/2006/vcard/ns#Kind"^^<http://www.w3.org/2004/02/skos/core#Concept> ;
+                             <http://xmlns.com/foaf/0.1/name>
+                                     "Татяна Стоянова"
+                           ] ;
+        dcat:contactPoint  [ dct:type  "http://www.w3.org/2006/vcard/ns#Kind"^^<http://www.w3.org/2004/02/skos/core#Concept> ;
+                             <http://xmlns.com/foaf/0.1/name>
+                                     "Татяна Стоянова"
+                           ] ;
+        dcat:distribution  <http://projekt-opal.de/distribution/https___europeandataportal_eu_set_distribution_ac9893fc_729d_426a_9a82_858e35516e5a> ;
+        dcat:keyword       "второстепенни разпоредители с бюджет"@bg ;
+        <http://www.w3.org/ns/dqv#hasQualityMeasurement>
+                <http://projekt-opal.de/measurement17108> , <http://projekt-opal.de/measurement17106> , <http://projekt-opal.de/measurement17103> , <http://projekt-opal.de/measurement17104> , <http://projekt-opal.de/measurement17107> , <http://projekt-opal.de/measurement17105> , <http://projekt-opal.de/measurement17102> .
+
+<http://projekt-opal.de/measurement15947>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/MultipleSerializations> ;
+        <http://www.w3.org/ns/dqv#value>
+                "1.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement14853>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/Timeliness> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement15757>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/Description> ;
+        <http://www.w3.org/ns/dqv#value>
+                "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement16901>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/KnownLicense> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement14663>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/LinkedDataRepresentation> ;
+        <http://www.w3.org/ns/dqv#value>
+                "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement15567>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/Timeliness> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement16711>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/Description> ;
+        <http://www.w3.org/ns/dqv#value>
+                "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement14473>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/Timeliness> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement15377>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/Categorization> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/distribution/https___europeandataportal_eu_set_distribution_06cd9966_932d_4b14_91b3_57b799898bf4>
+        a                dcat:Distribution ;
+        dct:description  ""@en ;
+        dct:format       <http://publications.europa.eu/resource/authority/file-type/PDF> ;
+        dct:license      <http://reference.data.gov.uk/id/open-government-licence> ;
+        dct:title        "Trade Union Facility Time"@en ;
+        dcat:accessURL   <https://www.bristol.gov.uk/documents/20182/34180/Trade+union+facility+time+31+Dec+18.pdf/1157b959-3936-4459-d8ed-d76577be528c> .
+
+<http://projekt-opal.de/measurement16521>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/Categorization> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement14283>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/MultipleSerializations> ;
+        <http://www.w3.org/ns/dqv#value>
+                "1.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement17425>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/ContactUrl> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/distribution/https___europeandataportal_eu_set_distribution_c6aae1ce_15cf_4a9c_ae79_f27595a015a8>
+        a                dcat:Distribution ;
+        dct:description  "Program PX-Win za uporabo podatkov PC-Axis"@sl ;
+        dct:format       <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+        dcat:accessURL   <https://www.scb.se/sv_/PC-Axis/Programs/PX-Win/> .
+
+<http://projekt-opal.de/measurement15187>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/ContactUrl> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement16331>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/LinkedDataRepresentation> ;
+        <http://www.w3.org/ns/dqv#value>
+                "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement14093>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/ContactUrl> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement17235>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/ContactUrl> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement16141>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/Description> ;
+        <http://www.w3.org/ns/dqv#value>
+                "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .

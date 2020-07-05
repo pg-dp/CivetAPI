@@ -1,0 +1,165 @@
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix dcat:  <http://www.w3.org/ns/dcat#> .
+
+<http://projekt-opal.de/dataset/_mcloudde_vieljhrlicherasterdesmittlerenvegetationsbeginnsindeutschland>
+        a                  dcat:Dataset ;
+        dct:description    "Die Raster wurden aus aus den jÃ¤hrlichen Rastern des Vegetationsbeginns gemittelt. Der Vegetationsbeginn wird Ã¼ber die phÃ¤nologische Phase Forsythie - Beginn der BlÃ¼te festgelegt und kennzeichnet den Beginn des ErstfrÃ¼hlings. Weitere Informationen: https://opendata.dwd.de/climate_environment/CDC/grids_germany/multi_annual/vegetation_begin/BESCHREIBUNG_gridsgermany_multi_annual_vegetation_begin_de.pdf" ;
+        dct:issued         "2018-02-15" ;
+        dct:modified       "2019";
+        dct:publisher      <http://projekt-opal.de/agent/_mcloudde_vieljhrlicherasterdesmittlerenvegetationsbeginnsindeutschland> ;
+        dct:title          "VieljÃ¤hrliche Raster des mittleren Vegetationsbeginns in Deutschland" ;
+        dcat:distribution  <http://projekt-opal.de/distribution/_mcloudde_vieljhrlicherasterdesmittlerenvegetationsbeginnsindeutschland_1> , <http://projekt-opal.de/distribution/_mcloudde_vieljhrlicherasterdesmittlerenvegetationsbeginnsindeutschland_2> , <http://projekt-opal.de/distribution/_mcloudde_vieljhrlicherasterdesmittlerenvegetationsbeginnsindeutschland_0> ;
+        dcat:landingPage   <https://mcloud.de/web/guest/suche/-/results/detail/_mcloudde_vieljhrlicherasterdesmittlerenvegetationsbeginnsindeutschland?_mcloudsearchportlet_backURL=https%3A%2F%2Fmcloud.de%2Fweb%2Fguest%2Fsuche%2F-%2Fresults%2FsearchAction%3F_mcloudsearchportlet_page%3D20%26_mcloudsearchportlet_sort%3Dlatest> ;
+        dcat:theme         <http://projeckt-opal.de/theme/mcloud/climateAndWeather> ;
+        <http://www.w3.org/ns/dqv#hasQualityMeasurement>
+                <http://projekt-opal.de/measurement2221> , <http://projekt-opal.de/measurement2222> , <http://projekt-opal.de/measurement2225> , <http://projekt-opal.de/measurement2226> , <http://projekt-opal.de/measurement2223> , <http://projekt-opal.de/measurement2220> , <http://projekt-opal.de/measurement2224> .
+
+<http://projekt-opal.de/distribution/_mcloudde_stadtklnraddialogehrenfeldkoeln2017_3>
+        a                 dcat:Distribution ;
+        dct:license       <https://creativecommons.org/licenses/by/3.0/de/> ;
+        dcat:downloadURL  <https://offenedaten-koeln.de/sites/default/files/Ehrenfeld%20Kommentare%2020180130%20oeffentlich.json> .
+
+<http://projekt-opal.de/distribution/a25490bb-6efc-4453-8957-090ac056a293_3>
+        a               dcat:Distribution ;
+        dcat:accessURL  <http://mdi-dienste.baw.de/geoserver/aufmod/ows?service=WFS&request=getcapabilities> .
+
+<http://projekt-opal.de/measurement3382>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/LinkedDataRepresentation> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement3192>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/MultipleSerializations> ;
+        <http://www.w3.org/ns/dqv#value>
+                "1.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement1505>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/ContactUrl> ;
+        <http://www.w3.org/ns/dqv#value>
+                "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/distribution/_mcloudde_dgm-w2010unter-undauenelbe_1>
+        a                 dcat:Distribution ;
+        dct:license       <http://www.geodatenzentrum.de/docpdf/geonutzv.pdf> ;
+        dcat:downloadURL  <https://www.portal-tideelbe.de/Allgemeine_Informationen/Archiv/GIS/DGM-W_Unterelbe_2010_1x1m/DGM_Unterelbe_2010_xyz_1x1m_GK3_Teil2.zip> .
+
+<http://projekt-opal.de/measurement2409>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/LinkedDataRepresentation> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement1315>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/Categorization> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/agent/_mcloudde_stadtklnraddialogehrenfeldkoeln2017>
+        a       <http://xmlns.com/foaf/0.1/Agent> ;
+        <http://xmlns.com/foaf/0.1/homepage>
+                <http://www.stadt-koeln.de/> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "Stadt KÃ¶ln" .
+
+<http://projekt-opal.de/measurement2219>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/Description> ;
+        <http://www.w3.org/ns/dqv#value>
+                "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement1125>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/MultipleSerializations> ;
+        <http://www.w3.org/ns/dqv#value>
+                "1.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/distribution/_mcloudde_wetterwarnungencap-commonalertprotocol-vereinigtepolygone_0>
+        a                 dcat:Distribution ;
+        dct:license       <http://www.geodatenzentrum.de/docpdf/geonutzv.pdf> ;
+        dcat:downloadURL  <https://opendata.dwd.de/weather/alerts/cap/COMMUNEUNION_EVENT_STAT/Z_CAP_C_EDZW_LATEST_PVW_STATUS_PREMIUMEVENT_COMMUNEUNION_DE.zip> .
+
+<http://projekt-opal.de/measurement2029>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/Timeliness> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/distribution/_mcloudde_steilestreckenimradverkehrsnetzwuppertal_3>
+        a                 dcat:Distribution ;
+        dct:license       <http://creativecommons.org/licenses/by-nc/4.0/> ;
+        dcat:downloadURL  <http://www.gis-rest.nrw.de/atomFeed/rest/atom/fc3c046c-289f-4754-869a-59cd274d5d04> .
+
+<http://projekt-opal.de/distribution/_mcloudde_stadtklnbugelddatenkoeln2016_2>
+        a                 dcat:Distribution ;
+        dct:license       <https://creativecommons.org/licenses/by/3.0/de/> ;
+        dcat:downloadURL  <https://www.offenedaten-koeln.de/api/action/datastore/search.json?resource_id=27d3e7a5-cd3b-4862-af11-57ae8e989e70> .
+
+<http://projekt-opal.de/distribution/_mcloudde_stadtklnstrassenverzeichnis_2>
+        a                 dcat:Distribution ;
+        dct:license       <https://creativecommons.org/licenses/by/3.0/de/> ;
+        dcat:downloadURL  <https://offenedaten-koeln.de/sites/default/files/2014-01-01_Stra%C3%9Fenverzeichnis_Stadtviertel.csv> .
+
+<http://projekt-opal.de/measurement402>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/KnownLicense> ;
+        <http://www.w3.org/ns/dqv#value>
+                "5.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/agent/_mcloudde_stadtmoerse-bike-ladestationeninmoers>
+        a       <http://xmlns.com/foaf/0.1/Agent> ;
+        <http://xmlns.com/foaf/0.1/homepage>
+                <https://www.moers.de/> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "Stadt Moers" .
+
+<http://projekt-opal.de/measurement212>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/LinkedDataRepresentation> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/distribution/_mcloudde_sst-seasurfacetemperature_1>
+        a                 dcat:Distribution ;
+        dct:license       <http://www.geodatenzentrum.de/docpdf/geonutzv.pdf> ;
+        dcat:downloadURL  <https://mcloud.de/export/datasets/_mcloudde_sst-seasurfacetemperature> .
+
+<http://projekt-opal.de/measurement1867>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/LinkedDataRepresentation> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/distribution/_mcloudde_stadtklnverkehrsunfallentwicklungstadtgebietkoeln2015_25>
+        a                 dcat:Distribution ;
+        dct:license       <https://creativecommons.org/licenses/by/3.0/de/> ;
+        dcat:downloadURL  <https://offenedaten-koeln.de/sites/default/files/Verunglueckte_Kinder_Verkehrsmittel_Prozent_Koeln_2015.csv> .
+
+<http://projekt-opal.de/measurement1677>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/Timeliness> ;
+        <http://www.w3.org/ns/dqv#value>
+                "0.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
+<http://projekt-opal.de/measurement2821>
+        a       <http://www.w3.org/ns/dqv#qualityMeasurement> ;
+        <http://www.w3.org/ns/dqv#isMeasurementOf>
+                <http://metric.projekt-opal.de/MultipleSerializations> ;
+        <http://www.w3.org/ns/dqv#value>
+                "1.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+
