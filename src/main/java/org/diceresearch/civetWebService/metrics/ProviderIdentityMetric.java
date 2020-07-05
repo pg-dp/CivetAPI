@@ -1,4 +1,4 @@
-package org.diceresearch.civetWebService;
+package org.diceresearch.civetWebService.metrics;
 
 import java.net.URL;
 import org.apache.jena.rdf.model.Model;

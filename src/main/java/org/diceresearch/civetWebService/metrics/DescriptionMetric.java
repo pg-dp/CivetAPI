@@ -1,4 +1,4 @@
-package org.diceresearch.civetWebService;
+package org.diceresearch.civetWebService.metrics;
 
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.Resource;
@@ -119,4 +119,4 @@ public class DescriptionMetric implements Metric {
 		return Opal.OPAL_METRIC_CATEGORIZATION.getURI();
 	}
 
-}
+} 
