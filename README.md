@@ -14,7 +14,7 @@ This is a spring-boot Maven app. So download this repository and in the root fol
 note: See below example queries for specifying metric names
 
 ## Model test turtle files can be found here:
-- https://github.com/pg-dp/CivetAPI/tree/all-metrics-api/src/test/resources
+- https://github.com/pg-dp/CivetAPI/tree/dev/src/test/resources
 
 ### Example queries:
 - https://localhost:8080/uploadFile/DateFormat,
@@ -25,4 +25,9 @@ note: See below example queries for specifying metric names
 - https://localhost:8080/uploadFile/ContactEmail,
 - https://localhost:8080/uploadFile/ContactURL,
 - https://localhost:8080/uploadFile/Accessibility,
-- https://localhost:8080/uploadFile/DataFormat.
+- https://localhost:8080/uploadFile/DataFormat,
+- https://localhost:8080/uploadFile/Version,
+- https://localhost:8080/uploadFile/UpdateRate,
+- https://localhost:8080/uploadFile/Timeliness,
+- https://localhost:8080/uploadFile/Readability,
+- https://localhost:8080/uploadFile/LanguageError.
