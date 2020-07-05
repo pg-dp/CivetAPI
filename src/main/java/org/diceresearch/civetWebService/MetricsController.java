@@ -6,15 +6,7 @@ import java.nio.charset.StandardCharsets;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
 import org.dice_research.opal.civet.Civet;
-import org.diceresearch.civetWebService.metrics.AccessibilityMetric;
-import org.diceresearch.civetWebService.metrics.AvailabilityOfLicensesMetric;
-import org.diceresearch.civetWebService.metrics.ContactClassicMetric;
-import org.diceresearch.civetWebService.metrics.ContactEmailMetric;
-import org.diceresearch.civetWebService.metrics.ContactURLMetric;
-import org.diceresearch.civetWebService.metrics.DataFormatMetric;
-import org.diceresearch.civetWebService.metrics.DateFormatMetric;
-import org.diceresearch.civetWebService.metrics.DescriptionMetric;
-import org.diceresearch.civetWebService.metrics.ProviderIdentityMetric;
+import org.diceresearch.civetWebService.metrics.*;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -166,4 +158,75 @@ public class MetricsController {
 		return metric.compute((Model) result.get("model"), (String) result.get("datasetUri"));
 	}
 
+	@PostMapping("/uploadFile/versionmetric")
+	public int uploadFileVersionMetric(@RequestParam("file") MultipartFile file, @RequestParam String dataSet)
+			throws Exception {
+
+		MetricsController controller = new MetricsController();
+		JSONObject result = controller.readModelFile(file, dataSet);
+
+		/* Compute model and datasetUri */
+		VersionMetric metric = new VersionMetric();
+		return metric.compute((Model) result.get("model"), (String) result.get("datasetUri"));
+	}
+
+	@PostMapping("/uploadFile/UpdateRateMetric")
+	public int uploadFileUpdateRateMetric(@RequestParam("file") MultipartFile file, @RequestParam String dataSet)
+			throws Exception {
+
+		MetricsController controller = new MetricsController();
+		JSONObject result = controller.readModelFile(file, dataSet);
+
+		/* Compute model and datasetUri */
+		UpdateRateMetric metric = new UpdateRateMetric();
+		return metric.compute((Model) result.get("model"), (String) result.get("datasetUri"));
+	}
+
+	@PostMapping("/uploadFile/TimelinessMetric")
+	public int uploadFileTimelinessMetric(@RequestParam("file") MultipartFile file, @RequestParam String dataSet)
+			throws Exception {
+
+		MetricsController controller = new MetricsController();
+		JSONObject result = controller.readModelFile(file, dataSet);
+
+		/* Compute model and datasetUri */
+		TimelinessMetric metric = new TimelinessMetric();
+		return metric.compute((Model) result.get("model"), (String) result.get("datasetUri"));
+	}
+
+	@PostMapping("/uploadFile/ReadabilityMetric")
+	public int uploadFileReadabilityMetric(@RequestParam("file") MultipartFile file, @RequestParam String dataSet)
+			throws Exception {
+
+		MetricsController controller = new MetricsController();
+		JSONObject result = controller.readModelFile(file, dataSet);
+
+		/* Compute model and datasetUri */
+		ReadabilityMetric metric = new ReadabilityMetric();
+		return metric.compute((Model) result.get("model"), (String) result.get("datasetUri"));
+	}
+
+	@PostMapping("/uploadFile/LanguageErrorMetric")
+	public int uploadFileLanguageErrorMetric(@RequestParam("file") MultipartFile file, @RequestParam String dataSet)
+			throws Exception {
+
+		MetricsController controller = new MetricsController();
+		JSONObject result = controller.readModelFile(file, dataSet);
+
+		/* Compute model and datasetUri */
+		LanguageErrorMetric metric = new LanguageErrorMetric();
+		return metric.compute((Model) result.get("model"), (String) result.get("datasetUri"));
+	}
+
+	@PostMapping("/uploadFile/testserver")
+	public int uploadFileTestServer()
+			throws Exception {
+
+		//MetricsController controller = new MetricsController();
+		//JSONObject result = controller.readModelFile(file, dataSet);
+
+		/* Compute model and datasetUri */
+		System.out.println("hello");
+		return 1;
+	}
 }

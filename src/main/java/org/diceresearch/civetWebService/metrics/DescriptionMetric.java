@@ -1,18 +1,18 @@
 package org.diceresearch.civetWebService.metrics;
 
-import org.apache.jena.rdf.model.Model;
-import org.apache.jena.rdf.model.Resource;
-import org.apache.jena.vocabulary.DCTerms;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
-import org.dice_research.opal.civet.Metric;
-import org.dice_research.opal.common.vocabulary.Opal;
+		import org.apache.jena.rdf.model.Model;
+		import org.apache.jena.rdf.model.Resource;
+		import org.apache.jena.vocabulary.DCTerms;
+		import org.apache.logging.log4j.LogManager;
+		import org.apache.logging.log4j.Logger;
+		import org.dice_research.opal.civet.Metric;
+		import org.dice_research.opal.common.vocabulary.Opal;
 
 /**
  * The Description metric compares two RDF (Resource Description Framework)
  * properties dct:description, dct:title and gives the stars based on the
  * information it provides.
- * 
+ *
  * Rating Criteria is as follows: "If there is empty dct:description and
  * dct:title then give 0 star"+ "If there is dct:description and dct:title empty
  * then give 1 star"+ "If there is dct:title and dct:description empty then give
@@ -22,7 +22,7 @@ import org.dice_research.opal.common.vocabulary.Opal;
  * length of dct:description is less than or equal to 50 then give 3 star"+ "If
  * length of dct:description is less than or equal to 75 then give 4 star"+ "If
  * length of dct:description is more than 75 then give 5 star"
- * 
+ *
  * @author Aamir Mohammed
  */
 public class DescriptionMetric implements Metric {
@@ -42,7 +42,7 @@ public class DescriptionMetric implements Metric {
 		/*
 		 * In this function, it compares dct:title and dct:description according to the
 		 * conditions given in statements
-		 * 
+		 *
 		 */
 
 		if (title.isEmpty() && description.isEmpty()) {
@@ -119,4 +119,4 @@ public class DescriptionMetric implements Metric {
 		return Opal.OPAL_METRIC_CATEGORIZATION.getURI();
 	}
 
-} 
+}

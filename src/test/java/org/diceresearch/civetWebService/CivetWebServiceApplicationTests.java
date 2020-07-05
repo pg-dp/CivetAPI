@@ -215,4 +215,20 @@ class CivetWebServiceApplicationTests {
         file = new MockMultipartFile("TestDataLicensesMetric.ttl", "TestDataLicensesMetric.ttl", contentType, content);
         Assert.assertEquals(5, objContoller.uploadFileLicensesMetric(file, dataset));
     }
+
+    @Test
+    public void testLanguageErrorMetric() throws Exception {
+        dataset = "http://projekt-opal.de/dataset/https___europeandataportal_eu_set_data_14f6d44d_c5d4_5225_96d9_f42a0879c8f1";
+        path = Paths.get("src/test/resources/TestDataLanguageErrorMetric.ttl");
+
+        try {
+            content = Files.readAllBytes(path);
+        } catch (final IOException e) {
+
+        }
+
+        file = new MockMultipartFile("TestDataLanguageErrorMetric.ttl",
+                "TestDataLanguageErrorMetric.ttl", contentType, content);
+        Assert.assertEquals(3, objContoller.uploadFileLanguageErrorMetric(file, dataset));
+    }
 }
