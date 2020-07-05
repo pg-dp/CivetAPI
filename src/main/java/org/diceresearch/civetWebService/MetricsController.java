@@ -158,7 +158,7 @@ public class MetricsController {
 		return metric.compute((Model) result.get("model"), (String) result.get("datasetUri"));
 	}
 
-	@PostMapping("/uploadFile/versionmetric")
+	@PostMapping("/uploadFile/Version")
 	public int uploadFileVersionMetric(@RequestParam("file") MultipartFile file, @RequestParam String dataSet)
 			throws Exception {
 
@@ -170,7 +170,7 @@ public class MetricsController {
 		return metric.compute((Model) result.get("model"), (String) result.get("datasetUri"));
 	}
 
-	@PostMapping("/uploadFile/UpdateRateMetric")
+	@PostMapping("/uploadFile/UpdateRate")
 	public int uploadFileUpdateRateMetric(@RequestParam("file") MultipartFile file, @RequestParam String dataSet)
 			throws Exception {
 
@@ -182,7 +182,7 @@ public class MetricsController {
 		return metric.compute((Model) result.get("model"), (String) result.get("datasetUri"));
 	}
 
-	@PostMapping("/uploadFile/TimelinessMetric")
+	@PostMapping("/uploadFile/Timeliness")
 	public int uploadFileTimelinessMetric(@RequestParam("file") MultipartFile file, @RequestParam String dataSet)
 			throws Exception {
 
@@ -194,7 +194,7 @@ public class MetricsController {
 		return metric.compute((Model) result.get("model"), (String) result.get("datasetUri"));
 	}
 
-	@PostMapping("/uploadFile/ReadabilityMetric")
+	@PostMapping("/uploadFile/Readability")
 	public int uploadFileReadabilityMetric(@RequestParam("file") MultipartFile file, @RequestParam String dataSet)
 			throws Exception {
 
@@ -206,7 +206,7 @@ public class MetricsController {
 		return metric.compute((Model) result.get("model"), (String) result.get("datasetUri"));
 	}
 
-	@PostMapping("/uploadFile/LanguageErrorMetric")
+	@PostMapping("/uploadFile/LanguageError")
 	public int uploadFileLanguageErrorMetric(@RequestParam("file") MultipartFile file, @RequestParam String dataSet)
 			throws Exception {
 
@@ -218,15 +218,4 @@ public class MetricsController {
 		return metric.compute((Model) result.get("model"), (String) result.get("datasetUri"));
 	}
 
-	@PostMapping("/uploadFile/testserver")
-	public int uploadFileTestServer()
-			throws Exception {
-
-		//MetricsController controller = new MetricsController();
-		//JSONObject result = controller.readModelFile(file, dataSet);
-
-		/* Compute model and datasetUri */
-		System.out.println("hello");
-		return 1;
-	}
 }
